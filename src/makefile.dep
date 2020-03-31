@@ -1,0 +1,42 @@
+collisions.o: collisions.c ../gfc/include/gfc_vector.h \
+ ../gfc/include/gfc_types.h
+entity.o: entity.c ../gfc/simple_logger/include/simple_logger.h \
+ ../include/gf2d_draw.h ../gfc/include/gfc_vector.h \
+ ../gfc/include/gfc_types.h ../include/entity.h ../include/gf2d_sprite.h \
+ ../gfc/include/gfc_types.h ../gfc/include/gfc_text.h \
+ ../gfc/include/gfc_color.h ../gfc/include/gfc_vector.h \
+ ../include/gf2d_actor.h ../include/level.h ../include/collisions.h
+game.o: game.c ../include/gf2d_graphics.h ../gfc/include/gfc_types.h \
+ ../gfc/include/gfc_vector.h ../gfc/include/gfc_types.h \
+ ../include/gf2d_sprite.h ../gfc/include/gfc_text.h \
+ ../gfc/include/gfc_color.h ../gfc/include/gfc_vector.h \
+ ../gfc/simple_logger/include/simple_logger.h ../include/entity.h \
+ ../include/gf2d_sprite.h ../include/gf2d_actor.h
+gf2d_actor.o: gf2d_actor.c ../gfc/simple_logger/include/simple_logger.h \
+ ../include/gf2d_actor.h ../gfc/include/gfc_text.h \
+ ../gfc/include/gfc_types.h ../gfc/include/gfc_color.h \
+ ../gfc/include/gfc_vector.h ../gfc/include/gfc_vector.h \
+ ../include/gf2d_sprite.h ../gfc/include/gfc_types.h
+gf2d_draw.o: gf2d_draw.c ../include/gf2d_draw.h \
+ ../gfc/include/gfc_vector.h ../gfc/include/gfc_types.h \
+ ../include/gf2d_graphics.h ../gfc/include/gfc_types.h \
+ ../gfc/simple_logger/include/simple_logger.h
+gf2d_graphics.o: gf2d_graphics.c ../include/gf2d_graphics.h \
+ ../gfc/include/gfc_types.h ../gfc/include/gfc_vector.h \
+ ../gfc/include/gfc_types.h ../gfc/simple_logger/include/simple_logger.h
+gf2d_sprite.o: gf2d_sprite.c ../gfc/simple_logger/include/simple_logger.h \
+ ../gfc/include/gfc_text.h ../gfc/include/gfc_types.h \
+ ../gfc/include/gfc_color.h ../gfc/include/gfc_vector.h \
+ ../include/gf2d_graphics.h ../gfc/include/gfc_types.h \
+ ../gfc/include/gfc_vector.h ../include/gf2d_sprite.h
+level.o: level.c ../gfc/simple_logger/include/simple_logger.h \
+ ../include/gf2d_draw.h ../gfc/include/gfc_vector.h \
+ ../gfc/include/gfc_types.h ../include/level.h ../gfc/include/gfc_types.h \
+ ../include/gf2d_sprite.h ../gfc/include/gfc_text.h \
+ ../gfc/include/gfc_color.h ../gfc/include/gfc_vector.h
+player.o: player.c ../include/player.h ../include/entity.h \
+ ../include/gf2d_sprite.h ../gfc/include/gfc_types.h \
+ ../gfc/include/gfc_vector.h ../gfc/include/gfc_types.h \
+ ../gfc/include/gfc_text.h ../gfc/include/gfc_color.h \
+ ../gfc/include/gfc_vector.h ../include/gf2d_actor.h \
+ ../gfc/simple_logger/include/simple_logger.h

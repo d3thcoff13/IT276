@@ -2,6 +2,7 @@
 #define __ENTITY_H__
 
 #include "gf2d_sprite.h"
+#include "gf2d_actor.h"
 
 typedef struct Entity_S
 {
@@ -22,6 +23,11 @@ typedef struct Entity_S
     
     Vector2D flip;
     Vector2D scale;
+    Actor actor;
+    float health;
+    int maxHealth;
+    int attack;
+    
 }Entity;
 
 /**

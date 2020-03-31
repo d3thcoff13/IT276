@@ -35,6 +35,8 @@ int main(int argc, char * argv[])
     SDL_ShowCursor(SDL_DISABLE);
     entity_manager_init(1024);
     
+    gf2d_action_list_init(128);
+    
     /*demo setup*/
     sprite = gf2d_sprite_load_image("images/backgrounds/bg_flat.png");
     mouse = gf2d_sprite_load_all("images/pointer.png",32,32,16);

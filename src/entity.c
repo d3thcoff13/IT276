@@ -128,15 +128,16 @@ void entity_draw(Entity *self)
         slog("cannot draw sprite, NULL entity provided!");
         return;
     }
+    if(!(self->actor.sprite))slog("awfk");
     gf2d_sprite_draw(
-        self->sprite,
+        self->actor.sprite,
         vector2d(self->position.x + self->drawOffset.x,self->position.y + self->drawOffset.y),
         &self->scale,
         NULL,
         NULL,
         &self->flip,
         NULL,
-        (Uint32)self->frame);
+        (Uint32)self->actor.frame);
     gf2d_draw_circle(self->position, self->radius, vector4d(255,0,255,255));
 //    gfc_rect_set(rect,self->position.x,self->position.y,self->size.x,self->size.y);
     gf2d_draw_rect(rect,vector4d(255,0,255,255));

@@ -217,6 +217,7 @@ void gf2d_sprite_draw(
     Vector2D scaleOffset = {0,0};
     if (!sprite)
     {
+        slog("can't find sprite!");
         return;
     }
     
