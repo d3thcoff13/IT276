@@ -1,0 +1,67 @@
+sprite: images/spritesheets/adventurer.png
+frameWidth: 32
+frameHeight: 66
+framesPerLine: 6
+scale: 2,2
+color: 255,255,255,255
+colorSpecial: 10,255,100,255
+
+action: idle
+startFrame: 0
+endFrame: 0
+frameRate: 0.1
+type:   loop
+
+action: walk
+startFrame: 7
+endFrame: 12
+frameRate: 0.1
+type:   loop
+
+action: crouch
+startFrame: 13
+endFrame: 15
+frameRate: 0.1
+type:   pass
+
+action: stand_hurt
+startFrame: 19
+endFrame: 23
+frameRate: 1
+type:   pass
+
+action: crouch_hurt
+startFrame: 25
+endFrame: 26
+frameRate: 1
+type:   pass
+
+action: jump
+startFrame: 31
+endFrame: 33
+frameRate: 1
+type:   pass
+
+action: attack_vert_stand
+startFrame: 37
+endFrame: 40
+frameRate: 0.75
+type:   passattack_stab
+
+action: attack_hori_stand
+startFrame: 43
+endFrame: 45
+frameRate: 0.75
+type:   pass
+
+action: attack_stab_stand
+startFrame: 49
+endFrame: 50
+frameRate: 0.75
+type:   pass
+
+action: block_stand
+startFrame: 55
+endFrame: 55
+frameRate: 0.75
+type:   loop
