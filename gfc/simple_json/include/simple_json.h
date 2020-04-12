@@ -214,4 +214,6 @@ void sj_enable_debug();
  * @note it is disabled by default
  */
 void sj_disable_debug();
+
+int** sj_array_2d(SJson *array,int height,int width);
 #endif

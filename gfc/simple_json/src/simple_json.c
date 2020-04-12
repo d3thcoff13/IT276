@@ -260,4 +260,23 @@ void sj_disable_debug()
     __SJ_DEBUG = 0;
 }
 
+int** sj_array_2d(SJson *array,int height,int width){
+	int** output = (int **)malloc(height * sizeof(int *));
+	SJson *value,*content;
+	int ctr=0,p = 0;
+	value = sj_object_get_value(array, "data");
+	for (int i = 0; i < width; i++){
+		output[i]=(int*)malloc(width * sizeof(int));
+	}
+		for (int j = 0; j < height; j++){
+			for (int k = 0; k < width; k++){
+				content= sj_array_get_nth(value, ctr);
+				sj_get_integer_value(content, &p);
+				output[j][k] = p;
+				ctr++;
+			}
+		}
+	return output;
+}
+
 /*eol@eof*/

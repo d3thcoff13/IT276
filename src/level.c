@@ -1,76 +1,90 @@
-#include "simple_logger.h"
-#include "gf2d_draw.h"
+#include <stdio.h>
 #include "level.h"
+#include "m_Necromancer.h"
+#include "simple_logger.h"
 
+Level* level;
+Level* load_level(const char* filename){
+	level = (Level *)malloc(sizeof(Level));
+	SJson *value,*file;
+	char* tilesheet;
+	int numOfTiles;
+	level->color = vector4d(255, 255, 255, 255);
 
-static Level *THE_LEVEL = NULL;
+	file = sj_load(filename);
+	if (file == NULL){
+		slog("file not found");
+		return level;
+	}
+	
+	value = sj_object_get_value(file, "height");
+	sj_get_integer_value(value, &level->height);
+	slog("here %i",level->height);
+	value = sj_object_get_value(file, "width");
+	sj_get_integer_value(value, &level->width);
 
-Level *level_get_active()
-{
-    return THE_LEVEL;
+	value = sj_object_get_value(file, "layers");
+	level->tiles = sj_array_2d(sj_array_get_nth(value, 0), level->height, level->width);
+	
+
+	value = sj_object_get_value(file, "tileheight");
+	sj_get_integer_value(value, &level->tileheight);
+
+	value = sj_object_get_value(file, "tilewidth");
+	sj_get_integer_value(value, &level->tilewidth);
+
+	value = sj_object_get_value(file, "tilesheet");
+	tilesheet = sj_get_string_value(value);
+
+	value = sj_object_get_value(file, "tileimages");
+	sj_get_integer_value(value, &numOfTiles);
+
+	level->tilesheet = gf2d_sprite_load_all(tilesheet, level->tilewidth, level->tileheight, numOfTiles);
+	load_level_entities(sj_object_get_value(file, "objects"));
+	slog("Level loaded: %s height,width:%i,%i tileheight,tilewidth:%i,%i ", level->tilesheet->filepath, level->height, level->width, level->tileheight, level->tilewidth);
+
+	return level;
 }
 
-Uint8 level_bounds_test_circle(Level *level, Vector2D center, float radius, Vector2D *normal)
-{
-    Uint8 hit = 0;
-    if (!level)
-    {
-        slog("no level provided for test");
-        return 0;
-    }
-    if (center.x - radius < level->bounds.x)
-    {
-        hit = 1;
-        if (normal)normal->x = 1;
-    }
-    if (center.y - radius < level->bounds.y)
-    {
-        hit = 1;
-        if (normal)normal->y = 1;
-    }
-    if (center.x + radius > level->bounds.x + level->bounds.w)
-    {
-        hit = 1;
-        if (normal)normal->x = -1;
-    }
-    if (center.y + radius > level->bounds.y + level->bounds.h)
-    {
-        hit = 1;
-        if (normal)normal->y = -1;
-    }
-    if ((hit) && (normal))
-    {
-        vector2d_normalize (normal);
-    }
-    return hit;
+void load_level_entities(SJson* list){
+	SJson *object,*objectContent;
+	int ctr = 0;
+	for (int j = 0; j < sj_array_get_count(list); j++){
+		object = sj_array_get_nth(list, ctr);
+		objectContent = sj_object_get_value(object, "name");
+		Entity* entity = entity_new();
+
+		if (!strcmp(sj_get_string_value(objectContent),"player")){
+			slog("player object");
+			player_spawn(entity);
+		}
+		else if (!strcmp(sj_get_string_value(objectContent), "necro")) {
+			slog("necro object");
+			monster_spawn(entity);
+		}
+		ctr++;
+		int x, y;
+		
+		objectContent = sj_object_get_value(object, "x");
+		sj_get_integer_value(objectContent, &x);
+		objectContent = sj_object_get_value(object, "y");
+		sj_get_integer_value(objectContent, &y);
+		entity_set_position(entity, vector2d(x, y));
+
+	}
+	
 }
 
-Level *level_new(char *backgroundFile,SDL_Rect bounds)
-{
-    Level *level;
-    if (!backgroundFile)
-    {
-        slog("no backgroundFile provided!");
-        return NULL;
-    }
-    level = (Level*)gfc_allocate_array(sizeof(Level),1);
-    if (!level)return NULL;
-    level->background = gf2d_sprite_load_image(backgroundFile);
-    gfc_rect_set(level->bounds,bounds.x,bounds.y,bounds.w,bounds.h);
-    THE_LEVEL = level;
-    return level;
+void draw_tiles(Level* level){
+	for (int i = 0; i < level->height; i++){
+		for (int j = 0; j < level->width; j++){
+			if (level->tiles[i][j] == 0)
+				continue;
+			gf2d_sprite_draw(level->tilesheet, vector2d(j * 32, i * 32), NULL, NULL, NULL, NULL, &level->color, 0);
+		}
+	}
 }
 
-void level_free(Level *level)
-{
-    if (!level)return;
-    gf2d_sprite_free(level->background);
-    free(level);
-}
-
-void level_draw(Level *level)
-{
-    if (!level)return;
-    gf2d_sprite_draw_image(level->background,vector2d(0,0));
-    gf2d_draw_rect(level->bounds,vector4d(255,0,0,255));
+Level* get_level() {
+	return level;
 }

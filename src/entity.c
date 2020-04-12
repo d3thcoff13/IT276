@@ -2,8 +2,8 @@
 #include "simple_logger.h"
 #include "gf2d_draw.h"
 #include "entity.h"
-#include "level.h"
 #include "collisions.h"
+#include "level.h"
 
 typedef struct
 {
@@ -79,34 +79,16 @@ void entity_free(Entity *self)
 
 void entity_update(Entity *self)
 {
-    Vector2D normal = {0,0};
     if (!self)return;
     
     vector2d_add(self->position,self->position,self->velocity);
-    if (level_bounds_test_circle(level_get_active(), self->position, self->radius,&normal))
-    {
-        if (normal.x > 0)
-        {
-            self->velocity.x = fabs(self->velocity.x);
-        }
-        if (normal.x < 0)
-        {
-            self->velocity.x = -fabs(self->velocity.x);
-        }
-        if (normal.y > 0)
-        {
-            self->velocity.y = fabs(self->velocity.y);
-        }
-        if (normal.y < 0)
-        {
-            self->velocity.y = -fabs(self->velocity.y);
-        }
-    }
-    entity_collide_check(self);
+    entity_tile_collision(get_level()->tiles);
+    //entity_collide_check(self);
 }
 
 void entity_update_all()
 {
+    collision_check(entity_manager.entityList, entity_manager.maxEnts);
     int i;
     for (i = 0;i < entity_manager.maxEnts;i++)
     {
@@ -138,8 +120,8 @@ void entity_draw(Entity *self)
         &self->flip,
         NULL,
         (Uint32)self->actor.frame);
-    gf2d_draw_circle(self->position, self->radius, vector4d(255,0,255,255));
-//    gfc_rect_set(rect,self->position.x,self->position.y,self->size.x,self->size.y);
+    //gf2d_draw_circle(self->position, self->radius, vector4d(255,0,255,255));
+    gfc_rect_set(rect,self->hitbox.x,self->hitbox.y,self->hitbox.w,self->hitbox.h);
     gf2d_draw_rect(rect,vector4d(255,0,255,255));
 }
 
@@ -176,6 +158,35 @@ void entity_draw_all()
         entity_draw(&entity_manager.entityList[i]);
     }
 }
+
+void entity_set_position(Entity *self, Vector2D position){
+	self->position = position;
+}
+
+void set_hitbox(Entity* self, int x, int y, int w, int h, int offsetx, int offsety) {
+    self->hitbox.x = x;
+    self->hitbox.y = y;
+    self->hitbox.w = w;
+    self->hitbox.h = h;
+    self->hitbox.offsetx = offsetx;
+    self->hitbox.offsety = offsety;
+}
+
+void update_hitbox_position(Entity* self) {
+    self->hitbox.x = self->position.x;
+    self->hitbox.y = self->position.y;
+}
+
+void entity_tile_collision(int** tiles) {
+        for (int i = 0; i < entity_manager.maxEnts; i++) {
+            if (entity_manager.entityList[i]._inuse) {
+                if (entity_manager.entityList[i].type != ET_Player)
+                    continue;
+                check_tile_ahead(&entity_manager.entityList[i], tiles);
+            }
+        }
+    }
+
 
 
 

@@ -1,25 +1,22 @@
-#ifndef __LEVEL_H__
-#define __LEVEL_H__
-
-#include "gfc_types.h"
 #include "gf2d_sprite.h"
+#include "entity.h"
+#include "simple_json.h"
+#include "player.h"
 
-
-typedef struct
-{
-    Sprite *background;
-    SDL_Rect bounds;
+typedef struct{
+	SDL_Rect bounds;
+	Sprite *background;
+	Sprite *tilesheet;
+	Vector4D color;
+	int** tiles;
+	int width;
+	int height;
+	int tilewidth;
+	int tileheight;
+	int tileimages;
 }Level;
 
-
-Level *level_new();
-void level_free(Level *level);
-void level_draw(Level *level);
-Level *level_get_active();
-
-/**
- * @brief test if a circle is touching or exceeding the level bounds
- */
-Uint8 level_bounds_test_circle(Level *level, Vector2D center, float radius, Vector2D *normal);
-
-#endif
+Level* load_level(const char* filename);
+void load_level_entities(SJson* list);
+void draw_tiles(Level* level);
+Level* get_level();

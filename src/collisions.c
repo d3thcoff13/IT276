@@ -1,11 +1,40 @@
 
-#ifndef __COLLISIONS_H__
-#define __COLLISIONS_H__
+#include "collisions.h"
+#include "simple_logger.h"
 
-#include "gfc_vector.h"
+void check_tile_ahead(Entity* self, int** tiles) {
 
-int collide_rect(SDL_Rect r1,SDL_Rect r2);
-int collide_circle(Vector2D p1, float r1, Vector2D p2, float r2);
+	//Check bottom tile
+	int left_bound = ((self->position.x + self->hitbox.offsetx) / 32);
+	int right_bound = ((self->position.x + self->hitbox.w + self->hitbox.offsetx) / 32);
+	int bottom_tile = ((self->position.y + self->hitbox.offsety + self->hitbox.h) / 32);
+	int upper_tile = ((self->position.y + self->hitbox.offsety) / 32);
+	int t = 0;
+	for (int i = left_bound; i <= right_bound; i++) {
+		if (tiles[bottom_tile][i] != 0 && vector2d_magnitude_between(vector2d(0, self->position.y + self->hitbox.offsety + self->hitbox.h-16), vector2d(0, bottom_tile * 32)) <= 1.5) {//&& tiles[bottom_tile][i] != 10 && vector2d_magnitude_between(vector2d(0, self->position.y + self->hitbox.offsety + self->hitbox.h), vector2d(0, bottom_tile * 16)) <= 1.5) {
+			self->grounded = true;
+			t++;
+		}
+	}
+}
 
+void collision_check(Entity* ents, Uint32 entity_max) {
+	for (int i = 0; i < entity_max - 1; i++) {
+		if (ents[i].type != ET_Player && ents[i].type != ET_Enemy) continue;
+		for (int j = 1; j < entity_max; j++) {
+			if (ents[i].type != ET_Player && ents[i].type != ET_Enemy) continue;
+			if (i == j)continue;
+			if (check_collision(&ents[i], &ents[j])) {
+				slog("collision");
+			}
+		}
+	}
+}
 
-#endif
+bool check_collision(Entity* self, Entity* other) {
+	return(
+		self->position.x + self->hitbox.w + self->hitbox.offsetx > other->position.x + other->hitbox.offsetx &&
+		self->position.x + self->hitbox.offsetx  < other->position.x + other->hitbox.offsetx + other->hitbox.w &&
+		self->position.y + self->hitbox.h + self->hitbox.offsety > other->position.y + other->hitbox.offsety &&
+		self->position.y + self->hitbox.offsety < other->position.y + other->hitbox.offsety + other->hitbox.h);
+}

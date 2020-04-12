@@ -3,6 +3,28 @@
 
 #include "gf2d_sprite.h"
 #include "gf2d_actor.h"
+#include "gf2d_physics.h"
+#include <stdbool.h>
+
+
+typedef enum
+{
+    ET_Player = 0,
+    ET_Projectile = 1,
+    ET_Hitbox = 2,
+    ET_Enemy = 3,
+    ET_Stage = 4,
+    ET_Hazard = 5,
+    ET_Healthbar = 6,
+    ET_Energybar = 7
+}EntityType;
+
+typedef struct BoundBox
+{
+    int x, y;
+    int w, h;
+    int offsetx, offsety;
+}BoundBox;
 
 typedef struct Entity_S
 {
@@ -18,6 +40,8 @@ typedef struct Entity_S
     float       radius;     /**<how wide this entity is*/
     Vector2D    size;
     
+    BoundBox		hitbox;
+
     void (*think)(struct Entity_S *self);   /**<called when an entity draws*/
     void (*touch)(struct Entity_S *self, struct Entity_S *other);   /**<called when an entity touches another entity*/
     
@@ -27,6 +51,12 @@ typedef struct Entity_S
     float health;
     int maxHealth;
     int attack;
+    int cooldown;
+
+    EntityType		type;
+    bool grounded;
+    //Physics     physics;
+
     
 }Entity;
 
@@ -57,4 +87,12 @@ void entity_update_all();
  * @brief draww every active entity
  */
 void entity_draw_all();
+
+void entity_set_position(Entity *self, Vector2D position);
+
+void set_hitbox(Entity* self, int x, int y, int w, int h, int offsetx, int offsety);
+
+void update_hitbox_position(Entity* self);
+
+void entity_tile_collision(int** tiles);
 #endif
