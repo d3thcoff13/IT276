@@ -24,6 +24,7 @@ typedef struct BoundBox
     int x, y;
     int w, h;
     int offsetx, offsety;
+    bool isActive;
 }BoundBox;
 
 typedef struct Entity_S
@@ -36,9 +37,7 @@ typedef struct Entity_S
     Vector2D    position;   /**<where the entity is in 2D space*/
     Vector2D    velocity;
     
-    Vector2D    drawOffset; 
-    float       radius;     /**<how wide this entity is*/
-    Vector2D    size;
+    Vector2D    drawOffset;
     
     BoundBox		hitbox;
 
@@ -48,10 +47,14 @@ typedef struct Entity_S
     Vector2D flip;
     Vector2D scale;
     Actor actor;
+
     float health;
     int maxHealth;
     int attack;
     int cooldown;
+
+    bool canDamage;
+    int damage;
 
     EntityType		type;
     bool grounded;
@@ -60,6 +63,7 @@ typedef struct Entity_S
     
 }Entity;
 
+void entity_free_all();
 /**
  * @brief get a pointer to a new entity
  * @return NULL on out of memory or error, a pointer to a blank entity otherwise

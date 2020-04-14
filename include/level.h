@@ -1,3 +1,6 @@
+#ifndef __LEVEL_H__
+#define __LEVEL_H__
+
 #include "gf2d_sprite.h"
 #include "entity.h"
 #include "simple_json.h"
@@ -20,3 +23,5 @@ Level* load_level(const char* filename);
 void load_level_entities(SJson* list);
 void draw_tiles(Level* level);
 Level* get_level();
+void change_level();
+#endif

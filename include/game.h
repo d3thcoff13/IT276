@@ -1,3 +1,4 @@
 #include "level.h"
 
-currentLevel = get_level();
+Level* level;
+Level* getCurrentLevel();

@@ -162,6 +162,7 @@
     <ClInclude Include="..\..\gfc\simple_logger\include\simple_logger.h" />
     <ClInclude Include="..\..\include\collisions.h" />
     <ClInclude Include="..\..\include\entity.h" />
+    <ClInclude Include="..\..\include\game.h" />
     <ClInclude Include="..\..\include\gf2d_actor.h" />
     <ClInclude Include="..\..\include\gf2d_draw.h" />
     <ClInclude Include="..\..\include\gf2d_graphics.h" />
@@ -188,7 +189,6 @@
     <ClCompile Include="..\..\gfc\src\gfc_text.c" />
     <ClCompile Include="..\..\gfc\src\gfc_types.c" />
     <ClCompile Include="..\..\gfc\src\gfc_vector.c" />
-    <ClCompile Include="..\..\include\m_Necromancer.c" />
     <ClCompile Include="..\..\src\collisions.c" />
     <ClCompile Include="..\..\src\entity.c" />
     <ClCompile Include="..\..\src\game.c" />
@@ -198,6 +198,7 @@
     <ClCompile Include="..\..\src\gf2d_physics.c" />
     <ClCompile Include="..\..\src\gf2d_sprite.c" />
     <ClCompile Include="..\..\src\level.c" />
+    <ClCompile Include="..\..\src\m_Necromancer.c" />
     <ClCompile Include="..\..\src\player.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

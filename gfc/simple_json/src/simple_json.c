@@ -261,7 +261,7 @@ void sj_disable_debug()
 }
 
 int** sj_array_2d(SJson *array,int height,int width){
-	int** output = (int **)malloc(height * sizeof(int *));
+ 	int** output = (int **)malloc(height * sizeof(int *));
 	SJson *value,*content;
 	int ctr=0,p = 0;
 	value = sj_object_get_value(array, "data");

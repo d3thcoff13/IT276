@@ -27,7 +27,7 @@ type:   pass
 action: stand_hurt
 startFrame: 19
 endFrame: 23
-frameRate: 1
+frameRate: 0.5
 type:   pass
 
 action: crouch_hurt

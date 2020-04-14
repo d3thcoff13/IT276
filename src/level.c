@@ -2,8 +2,8 @@
 #include "level.h"
 #include "m_Necromancer.h"
 #include "simple_logger.h"
+#include "game.h"
 
-Level* level;
 Level* load_level(const char* filename){
 	level = (Level *)malloc(sizeof(Level));
 	SJson *value,*file;
@@ -56,7 +56,7 @@ void load_level_entities(SJson* list){
 
 		if (!strcmp(sj_get_string_value(objectContent),"player")){
 			slog("player object");
-			player_spawn(entity);
+			init_player(entity);
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "necro")) {
 			slog("necro object");
@@ -83,6 +83,12 @@ void draw_tiles(Level* level){
 			gf2d_sprite_draw(level->tilesheet, vector2d(j * 32, i * 32), NULL, NULL, NULL, NULL, &level->color, 0);
 		}
 	}
+}
+
+void change_level() {
+	memset(level->tiles, 0, sizeof(int *));
+	memset(level, 0, sizeof(Entity));
+	load_level("../../levels/demo2.json");
 }
 
 Level* get_level() {

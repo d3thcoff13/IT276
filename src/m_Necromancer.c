@@ -3,19 +3,30 @@
 void monster_think(Entity* self) {
     update_hitbox_position(self);
 }
+
+void monster_touch(Entity* self, Entity* other) { return; }
+
 Entity* monster_spawn(Entity* self) {
     if (!self)return NULL;
-    self->radius = 5;
-    self->size.x = 5;
-    self->size.y = 5;
+
+
     gf2d_actor_load(&self->actor, "../../actors/skeleton.actor");
     gf2d_actor_set_action(&self->actor, "idle");
+
     self->think = monster_think;
+    self->touch = monster_touch;
+
     vector2d_set(self->scale, 1,1);
     vector2d_set(self->drawOffset, 0, -4);
-    self->flip = vector2d(1, 0);
-    self->grounded = true;
     vector2d_set(self->velocity, 0, 0);
-    set_hitbox(self, self->position.x, self->position.y, 32, 58, 0, 16);
+    self->flip = vector2d(1, 0);
+
+    self->grounded = true;
+    self->canDamage = true;
+    self->damage = 10;
+
+    //set_hitbox(self, self->position.x, self->position.y, 32, 58, 0, 16);
+    self->hitbox.isActive = true;
+
     return self;
 }

@@ -99,6 +99,9 @@
     <ClInclude Include="..\..\include\m_Necromancer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\include\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\entity.c">
@@ -179,7 +182,7 @@
     <ClCompile Include="..\..\src\gf2d_physics.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\include\m_Necromancer.c">
+    <ClCompile Include="..\..\src\m_Necromancer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

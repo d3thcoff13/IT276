@@ -16,6 +16,18 @@ static EntityManager entity_manager = {0};
 
 void entity_collide_check(Entity *entity);
 
+void entity_free_all() {
+    int i;
+    for (i = 0; i < entity_manager.maxEnts; i++)
+    {
+        if (entity_manager.entityList[i]._inuse)
+        {
+            entity_free(&entity_manager.entityList[i]);
+        }
+    }
+    change_level("../../levels/demo2.json");
+}
+
 void entity_manager_close()
 {
     int i;
@@ -88,7 +100,7 @@ void entity_update(Entity *self)
 
 void entity_update_all()
 {
-    collision_check(entity_manager.entityList, entity_manager.maxEnts);
+    collision_check_all(entity_manager.entityList, entity_manager.maxEnts);
     int i;
     for (i = 0;i < entity_manager.maxEnts;i++)
     {
