@@ -4,6 +4,7 @@
 #include "gf2d_sprite.h"
 #include "gf2d_actor.h"
 #include "gf2d_physics.h"
+#include "p_weapon.h"
 #include <stdbool.h>
 
 
@@ -16,16 +17,25 @@ typedef enum
     ET_Stage = 4,
     ET_Hazard = 5,
     ET_Healthbar = 6,
-    ET_Energybar = 7
+    ET_Energybar = 7,
+    ET_Weapon
 }EntityType;
 
-typedef struct BoundBox
+/*typedef struct BoundBox
 {
     int x, y;
     int w, h;
     int offsetx, offsety;
     bool isActive;
-}BoundBox;
+}BoundBox;*/
+
+typedef struct WeaponList
+{
+    int* weapon_list;
+    int currentWeapon;
+}WeaponList;
+
+
 
 typedef struct Entity_S
 {
@@ -33,6 +43,7 @@ typedef struct Entity_S
     Sprite     *sprite;     /**<a pointer to the sprite that is used by this entity*/
     int         state;
     float       frame;      /**<current frame for the sprite*/
+    char   name;
 
     Vector2D    position;   /**<where the entity is in 2D space*/
     Vector2D    velocity;
@@ -53,6 +64,8 @@ typedef struct Entity_S
     int attack;
     int cooldown;
 
+    Sprite* wpnsprite;
+
     bool canDamage;
     int damage;
 
@@ -60,7 +73,11 @@ typedef struct Entity_S
     bool grounded;
     //Physics     physics;
 
-    
+    bool canDoubleJump;
+    bool canAirdash;
+
+    enum Weapons weaponType;
+    Weapon *wpn;
 }Entity;
 
 void entity_free_all();

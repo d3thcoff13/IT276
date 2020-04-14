@@ -1,0 +1,2440 @@
+C:\Users\jsrb1\Documents\IT276\IT276\src\game.c:24: ---==== BEGIN ====---
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_graphics.c:132: graphics initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:43: failed to init image: Failed loading libpng16-16.dll: The specified module could not be found.
+
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:45: sprite system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:54: entity manager initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_actor.c:39: Action system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:146: failed to load sprite image images/backgrounds/bg_flat.png
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:146: failed to load sprite image images/pointer.png
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:146: failed to load sprite image images/spritesheets/adventurer.png
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:131: awfk
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\game.c:24: ---==== BEGIN ====---
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_graphics.c:132: graphics initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:45: sprite system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:54: entity manager initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_actor.c:39: Action system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:18: no level provided for test
+C:\Users\jsrb1\Documents\IT276\IT276\src\game.c:83: ---==== END ====---
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_actor.c:26: actionList system closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:32: entity manager closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:28: sprite system closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_graphics.c:163: graphics closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\game.c:23: ---==== BEGIN ====---
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_graphics.c:132: graphics initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:45: sprite system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:53: entity manager initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_actor.c:39: Action system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\game.c:80: ---==== END ====---
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_actor.c:26: actionList system closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:31: entity manager closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:28: sprite system closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_graphics.c:163: graphics closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\game.c:23: ---==== BEGIN ====---
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_graphics.c:132: graphics initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:45: sprite system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:53: entity manager initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_actor.c:39: Action system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\game.c:80: ---==== END ====---
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_actor.c:26: actionList system closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:31: entity manager closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:28: sprite system closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_graphics.c:163: graphics closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\game.c:23: ---==== BEGIN ====---
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_graphics.c:132: graphics initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:45: sprite system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:53: entity manager initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_actor.c:39: Action system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\game.c:80: ---==== END ====---
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_actor.c:26: actionList system closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:31: entity manager closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:28: sprite system closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_graphics.c:163: graphics closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\game.c:26: ---==== BEGIN ====---
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_graphics.c:132: graphics initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:45: sprite system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:53: entity manager initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_actor.c:39: Action system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:14: file not found
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:146: failed to load sprite image ../../images/backgrounds/bg_flat.png
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:146: failed to load sprite image ../../images/pointer.png
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\game.c:85: ---==== END ====---
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_actor.c:26: actionList system closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:31: entity manager closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:28: sprite system closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_graphics.c:163: graphics closed
+C:\Users\jsrb1\Documents\IT276\IT276\src\game.c:26: ---==== BEGIN ====---
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_graphics.c:132: graphics initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:45: sprite system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\entity.c:53: entity manager initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_actor.c:39: Action system initialized
+C:\Users\jsrb1\Documents\IT276\IT276\src\level.c:14: file not found
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:146: failed to load sprite image ../../images/backgrounds/bg_flat.png
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:146: failed to load sprite image ../../images/pointer.png
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!
+C:\Users\jsrb1\Documents\IT276\IT276\src\gf2d_sprite.c:220: can't find sprite!

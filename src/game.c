@@ -6,6 +6,7 @@
 #include "player.h"
 #include "level.h"
 #include "game.h"
+#include "p_weapon.h"
 
 
 
@@ -18,8 +19,9 @@ int main(int argc, char * argv[])
     
     int mx,my;
     float mf = 0;
-    Sprite *mouse;
-    Vector4D mouseColor = {255,100,255,200};
+    Sprite *mouse,*wpn;
+    Vector4D mouseColor = { 255,100,255,200 }, wpnColor = { 255,255,255,255 };
+
 
     
     
@@ -40,11 +42,13 @@ int main(int argc, char * argv[])
     entity_manager_init(1024);
     
     gf2d_action_list_init(128);
+    weapon_manager_init(20);
     
     level = load_level("../../levels/demolevel.json");
     /*demo setup*/
     sprite = gf2d_sprite_load_image("../../images/backgrounds/bg_flat.png");
     mouse = gf2d_sprite_load_all("../../images/pointer.png",32,32,16);
+    wpn = gf2d_sprite_load_all("../../images/spritesheets/weapons/player-dagger.png", 16, 16, 4);
     /*main game loop*/
     while(!done)
     {
@@ -74,6 +78,8 @@ int main(int argc, char * argv[])
                 NULL,
                 &mouseColor,
                 (int)mf);
+
+            //gf2d_sprite_draw(mouse, vector2d(417+50, 250), NULL, NULL, NULL, NULL, &wpnColor, (int)mf);
             
             //UI elements last
             

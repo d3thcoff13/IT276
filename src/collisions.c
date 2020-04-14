@@ -13,6 +13,7 @@ void check_tile_ahead(Entity* self, int** tiles) {
 	for (int i = left_bound; i <= right_bound; i++) {
 		if (tiles[bottom_tile][i] != 0 && vector2d_magnitude_between(vector2d(0, self->position.y + self->hitbox.offsety + self->hitbox.h - 16), vector2d(0, bottom_tile * 32)) <= 1.5) {
 			self->grounded = true;
+			self->canDoubleJump = true;
 			t++;
 		}
 		else self->grounded = false;
