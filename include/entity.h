@@ -6,6 +6,15 @@
 #include "gf2d_physics.h"
 #include <stdbool.h>
 
+typedef enum {
+    OT_Tree,
+    OT_Boulder,
+    OT_DemonDoor,
+    OT_LightningDoor,
+    OT_Spikes
+}ObstacleTypes;
+
+
 typedef enum
 {
     Dagger,
@@ -22,7 +31,7 @@ typedef enum
     ET_Hitbox = 2,
     ET_Enemy = 3,
     ET_Stage = 4,
-    ET_Hazard = 5,
+    ET_Obstacle = 5,
     ET_Healthbar = 6,
     ET_Energybar = 7,
     ET_Weapon = 8
@@ -55,6 +64,8 @@ typedef struct Entity_S
 
     Vector2D    position;   /**<where the entity is in 2D space*/
     Vector2D    velocity;
+
+    Vector4D  color;
     
     Vector2D    drawOffset;
     
@@ -100,7 +111,12 @@ typedef struct Entity_S
     BoundBox searchbox;
     enum MonsterType monType;
 
+    float frameCount;
+    ObstacleTypes obstacleType;
     float defaultY;
+
+    bool stoneskin;
+    float stoneskinTimer;
 
 }Entity;
 

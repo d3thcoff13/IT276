@@ -39,6 +39,61 @@
       "width": 32,
       "x": 32,
       "y": 226
+    },
+    {
+      "height": 64,
+      "id": 2,
+      "name": "demondoor",
+      "rotation": 0,
+      "type": "sdasdas",
+      "visible": true,
+      "width": 32,
+      "x": 480.604381767817,
+      "y": 289.377990430622
+    },
+    {
+      "height": 64,
+      "id": 3,
+      "name": "tree",
+      "rotation": 0,
+      "type": "dsdasda",
+      "visible": true,
+      "width": 32,
+      "x": 797,
+      "y": 292
+    },
+    {
+      "height": 80,
+      "id": 4,
+      "name": "boulder",
+      "rotation": 0,
+      "type": "dsda",
+      "visible": true,
+      "width": 48,
+      "x": 1023,
+      "y": 453
+    },
+    {
+      "height": 64,
+      "id": 6,
+      "name": "lightningdoor",
+      "rotation": 0,
+      "type": "",
+      "visible": true,
+      "width": 32,
+      "x": 830.904054394359,
+      "y": 478.91211281793
+    },
+    {
+      "height": 32,
+      "id": 7,
+      "name": "spikes",
+      "rotation": 0,
+      "type": "",
+      "visible": true,
+      "width": 32,
+      "x": 641,
+      "y": 509
     }
   ]
 }

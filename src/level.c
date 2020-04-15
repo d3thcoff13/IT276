@@ -4,6 +4,7 @@
 #include "m_skeleton.h"
 #include "simple_logger.h"
 #include "game.h"
+#include "obstacles.h"
 
 Level* load_level(const char* filename){
 	level = (Level *)malloc(sizeof(Level));
@@ -78,8 +79,25 @@ void load_level_entities(SJson* list){
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "pyro")) {
 			slog("firemage object");
-			//pyro_spawn(entity);
+			pyro_spawn(entity);
 			entity_free(entity);
+		}else if (!strcmp(sj_get_string_value(objectContent), "tree")) {
+			slog("i am groot");
+			init_tree(entity);
+		}
+		else if (!strcmp(sj_get_string_value(objectContent), "boulder")) {
+			slog("it's not a rock, it's a boulder!");
+			init_boulder(entity);
+		}
+		else if (!strcmp(sj_get_string_value(objectContent), "demondoor")) {
+			slog("demon door");
+			init_demon_door(entity);
+		}else if (!strcmp(sj_get_string_value(objectContent), "lightningdoor")) {
+			slog("lightning door");
+			init_lightning_door(entity);
+		}else if (!strcmp(sj_get_string_value(objectContent), "spikes")) {
+			slog("DEADSPIKE");
+			init_spikes(entity);
 		}
 		ctr++;
 		int x, y;

@@ -65,7 +65,6 @@ void check_tile_ahead(Entity* self, int** tiles) {
 			self->position.x = right_tile * 32 - self->hitbox.w - 4;
 			self->rightWall = true;
 			self->attack_cooldown = 2;
-			//slog("right.");
 			self->wall = -1;
 			r++;
 
@@ -86,7 +85,6 @@ void collision_check_all(Entity* ents, Uint32 entity_max) {
 			if(ents[j]._inuse != 1 || ents[j].hitbox.isActive == 0)continue;
 			if (ents[i].owner == ents[j].owner || i == j) continue;
 				if (collision_check(&ents[i], &ents[j])) {
-					//slog("collision");
 					if (&ents[i].touch && &ents[i].hitbox.isActive)ents[i].touch(&ents[i], &ents[j]);
 				}
 		}

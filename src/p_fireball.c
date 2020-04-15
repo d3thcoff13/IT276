@@ -6,8 +6,9 @@
 
 Entity* fireball_init(Entity* self, Entity *owner) {
 	self->owner = owner;
-	self->position = vector2d(owner->position.x - 30, owner->position.y + 24);
-	self->velocity.x = -1;
+	self->position = vector2d( owner->position.x - 30, owner->position.y + 24);
+	self->velocity.x = self->owner->flip.x == 1? -2 : 2;
+	self->flip.x = self->owner->flip.x == 1? 0: 1;
 	self->type = ET_Projectile;
 	self->canDamage = true;
 	self->damage = 50;
@@ -39,6 +40,7 @@ void fireball_touch(Entity* self, Entity* other) {
 		slog("health now %f", self->health);
 		if (other->health <= 0)other->state = 6;
 	}
+	else if (other->obstacleType == OT_Tree)entity_free(other);
 	self->state = ES_DEAD;
 	//entity_free(self);
 }

@@ -137,8 +137,7 @@ void entity_draw(Entity *self)
         slog("no sprite found");
         frame = NULL;
     }
-
-    if (&self->rotation == NULL)slog("ye");
+    if (vector4d_equal(self->color, vector4d(0, 0, 0, 0))) self->color = vector4d(255,255,255,255);
 
     gf2d_sprite_draw(
         sprite,
@@ -147,7 +146,7 @@ void entity_draw(Entity *self)
         NULL,
         &self->rotation,
         &self->flip,
-        NULL,
+        &self->color,
         frame);
     //gf2d_draw_circle(self->position, self->radius, vector4d(255,0,255,255));
     gfc_rect_set(rect,self->hitbox.x + self->hitbox.offsetx,self->hitbox.y + self->hitbox.offsety ,self->hitbox.w,self->hitbox.h);
@@ -235,7 +234,7 @@ void update_searchbox_position(Entity* self) {
 void entity_tile_collision(int** tiles) {
         for (int i = 0; i < entity_manager.maxEnts; i++) {
             if (entity_manager.entityList[i]._inuse) {
-                if (entity_manager.entityList[i].type != ET_Player && entity_manager.entityList[i].type != ET_Enemy)
+                if (entity_manager.entityList[i].type != ET_Player && entity_manager.entityList[i].type != ET_Enemy && entity_manager.entityList[i].type != ET_Projectile)
                     continue;
                 check_tile_ahead(&entity_manager.entityList[i], tiles);
             }

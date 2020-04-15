@@ -43,7 +43,7 @@
     {
       "height": 64,
       "id": 1,
-      "name": "pyro",
+      "name": "demondoor",
       "rotation": 0,
       "type": "pyro",
       "visible": true,

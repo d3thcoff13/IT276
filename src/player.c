@@ -2,6 +2,8 @@
 #include "simple_logger.h"
 #include "simple_json.h"
 #include "p_weapon.h"
+#include "p_fireball.h"
+#include "spells.h"
 
 #define ES_IDLE 1
 #define ES_RUN 2
@@ -23,6 +25,13 @@ void player_think(Entity *self){
     else if (self->grounded)vector2d_set(self->velocity, self->velocity.x, 0);
     self->attack_cooldown -= 0.1;
     if (self->attack_cooldown <= 0) self->attack_cooldown = 0;
+    self->stoneskinTimer -= 0.1;
+    if (self->stoneskinTimer <= 0 && self->stoneskin == true) {
+        self->stoneskinTimer = 0;
+        self->stoneskin = false;
+        self->color = vector4d(255, 255, 255, 255);
+        slog("stoneskin has faded");
+    }
     gf2d_actor_next_frame(&self->actor);
     update_hitbox_position(self);
     switch (self->state)
@@ -108,26 +117,29 @@ void player_think(Entity *self){
 
 void player_touch(Entity *self, Entity *other){
     if (other->canDamage) {
-        self->state = ES_HURT;
-        self->hitbox.isActive = false;
-        self->health -= other->damage;
-        self->position.x += (self->position.x > other->position.x ? -1 : 1) * 20;
-        gf2d_actor_set_action(&self->actor, "stand_hurt");
-        vector2d_set(self->velocity, (self->position.x > other->position.x? 4:-4), self->velocity.y);
-        slog("health now %f", self->health);
-        if (other->monType == MT_Skeleton) {
-            other->state = 1;
-            other->attack_cooldown = 3;
-        }
-        else if (other->monType == MT_Wolf || other->monType == MT_Bat) {
-            other->hitbox.isActive = false;
-        }
-        if (other->type == ET_Projectile) {
-            other->owner->summonCount--;
-            gf2d_actor_set_action(&other->owner->actor, "cast_fireball");
-            other->owner->attack_cooldown = 15;
-            entity_free(other);
-        }
+        if (other->obstacleType != OT_Spikes) {
+            self->state = ES_HURT;
+            self->hitbox.isActive = false;
+            self->health -= other->damage;
+            self->position.x += (self->position.x > other->position.x ? -1 : 1) * 20;
+            gf2d_actor_set_action(&self->actor, "stand_hurt");
+            vector2d_set(self->velocity, (self->position.x > other->position.x ? 4 : -4), self->velocity.y);
+            slog("health now %f", self->health);
+            if (other->monType == MT_Skeleton) {
+                other->state = 1;
+                other->attack_cooldown = 3;
+            }
+            else if (other->monType == MT_Wolf || other->monType == MT_Bat) {
+                other->hitbox.isActive = false;
+            }
+            if (other->type == ET_Projectile) {
+                other->owner->summonCount--;
+                gf2d_actor_set_action(&other->owner->actor, "cast_fireball");
+                other->owner->attack_cooldown = 15;
+                entity_free(other);
+            }
+        }else
+        if (other->obstacleType == OT_Spikes && self->stoneskin == false)entity_free(self);
     }
 }
 
@@ -156,16 +168,15 @@ Entity *init_player(Entity *self){
 
     self->owner = self;
     self->weapon = entity_new();
-    init_weapon(self->weapon, self, Mace); //Dagger);
+    init_weapon(self->weapon, self, Mace);
     
     //Create Hitbox
-    //set_hitbox(self, self->position.x, self->position.y, 32, 64, 0, 8);
     set_hitbox(self, self->position.x, self->position.y, 32, 48, 0, 10);
     self->hitbox.isActive = true;
 
     //Stats
     self->maxHealth = 100;
-    self->health = 100;//self->maxHealth;
+    self->health = 100;
     slog("health before %f", self->health);
     loadPlayerData(self);
     return self;
@@ -292,6 +303,21 @@ void getPlayerInputs(Entity *self) {
                     self->velocity.y = 0;
                     self->canAirDash = false;
                 }
+                break;
+            case SDLK_1:
+                cast_lightning(self);
+                break;
+            case SDLK_2:
+                cast_stoneskin(self);
+                break;
+            case SDLK_3:
+                cast_fireball(self);
+                break;
+            case SDLK_4:
+                bomb_toss(self);
+                break;
+            case SDLK_5:
+                throw_holy_water(self);
                 break;
             default:
                 break;
