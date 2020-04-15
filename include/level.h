@@ -22,5 +22,5 @@ Level* load_level(const char* filename);
 void load_level_entities(SJson* list);
 void draw_tiles(Level* level);
 Level* get_level();
-void change_level();
+void change_level(int targetlevel);
 #endif

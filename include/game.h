@@ -1,5 +1,7 @@
 #include "level.h"
 
 Level* level;
-Level* getCurrentLevel();
+int* currentLevel;
 Entity* player_entity;
+void Save_Game();
+void Load_Game();

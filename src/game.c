@@ -2,12 +2,52 @@
 #include "gf2d_graphics.h"
 #include "gf2d_sprite.h"
 #include "simple_logger.h"
+#include "simple_json.h"
 #include "entity.h"
 #include "player.h"
 #include "level.h"
 #include "game.h"
 
 
+void Save_Game(){
+SJson* file, * array, * data;
+file = sj_object_new();
+array = sj_array_new();
+
+data = sj_new_int(1);
+sj_array_append(array, data);
+sj_object_insert(file, "LoadFromFile", data);
+
+data = sj_new_int(currentLevel);
+sj_array_append(array, data);
+sj_object_insert(file, "currentLevel", data);
+
+
+sj_save(file, "../../savefiles/gameData.json");
+savePlayerData(player_entity);
+}
+
+void Load_Game() {
+    SJson* value, * file;
+    int loadfromfile;
+    currentLevel = 4;
+    file = sj_load("../../savefiles/gameData.json");
+    if (file == NULL) {
+        slog("file not found");
+        currentLevel = 1;
+        return NULL;
+    }
+    loadfromfile = 0;
+    value = sj_object_get_value(file, "LoadFromFile");
+    sj_get_integer_value(value, &loadfromfile);
+
+    if (loadfromfile == 1) {
+        value = sj_object_get_value(file, "currentLevel");
+        sj_get_integer_value(value, &currentLevel);
+    }
+    else currentLevel = 1;
+
+}
 
 int main(int argc, char * argv[])
 {
@@ -40,8 +80,9 @@ int main(int argc, char * argv[])
     entity_manager_init(1024);
     
     gf2d_action_list_init(128);
-    
-    level = load_level("../../levels/demolevel.json");
+
+    Load_Game();
+    change_level(currentLevel);
     /*demo setup*/
     sprite = gf2d_sprite_load_image("../../images/backgrounds/bg_flat.png");
     mouse = gf2d_sprite_load_all("../../images/pointer.png",32,32,16);

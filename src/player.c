@@ -10,6 +10,8 @@
 #include "m_wolf.h"
 #include "m_pyromancer.h"
 #include "obstacles.h"
+#include "level.h"
+#include "game.h"
 
 #define ES_IDLE 1
 #define ES_RUN 2
@@ -330,6 +332,9 @@ void getPlayerInputs(Entity *self) {
                 break;
             case SDLK_q:
                 entity_free_all();
+                currentLevel++;
+                if (currentLevel > 2)currentLevel = 2;
+                change_level(currentLevel);
                 break;
             case SDLK_6:
                 entToSpawn = entity_new();
@@ -380,6 +385,9 @@ void getPlayerInputs(Entity *self) {
                 if (currentWeapon == Shortsword)currentWeapon = Dagger;
                 else currentWeapon++;
                 init_weapon(self->weapon, self, currentWeapon);
+                break;
+            case SDLK_COMMA:
+                Save_Game();
                 break;
             default:
                 break;

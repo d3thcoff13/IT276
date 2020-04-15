@@ -114,10 +114,13 @@ void draw_tiles(Level* level){
 	}
 }
 
-void change_level() {
-	memset(level->tiles, 0, sizeof(int *));
-	memset(level, 0, sizeof(Level));
-	load_level("../../levels/demo2.json");
+void change_level(int targetlevel) {
+	if (level != NULL) {
+		memset(level->tiles, 0, sizeof(int*));
+		memset(level, 0, sizeof(Level));
+	}
+	if(targetlevel == 1)level = load_level("../../levels/demolevel.json"); 
+	else if(targetlevel == 2) level = load_level("../../levels/demo2.json");
 }
 
 Level* get_level() {
