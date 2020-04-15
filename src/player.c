@@ -262,6 +262,7 @@ void getPlayerInputs(Entity *self) {
                     self->state = ES_DASH;
                     self->velocity.x = self->flip.x == 1 ? -6 : 6;
                     self->velocity.y = 0;
+                    self->canAirDash = false;
                 }
                 break;
             default:
