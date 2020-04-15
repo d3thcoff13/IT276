@@ -90,6 +90,8 @@ typedef struct Entity_S
     BoundBox searchbox;
     enum MonsterType monType;
 
+    float defaultY;
+
 }Entity;
 
 void entity_free_all();

@@ -18,6 +18,12 @@ endFrame: 16
 frameRate: 0.1
 type:   loop
 
+action: idle
+startFrame: 9
+endFrame: 9
+frameRate: 0.1
+type:   loop
+
 action: attack_telegraph
 startFrame: 7
 endFrame: 13

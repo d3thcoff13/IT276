@@ -43,13 +43,13 @@
     {
       "height": 64,
       "id": 1,
-      "name": "wolf",
+      "name": "bat",
       "rotation": 0,
-      "type": "wolf",
+      "type": "bat",
       "visible": true,
       "width": 32,
-      "x": 550,
-      "y": 250
+      "x": 650,
+      "y": 222
     }
   ]
 }
