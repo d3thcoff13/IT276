@@ -188,6 +188,14 @@ void set_hitbox(Entity* self, int x, int y, int w, int h, int offsetx, int offse
 void update_hitbox_position(Entity* self) {
     self->hitbox.x = self->position.x;
     self->hitbox.y = self->position.y;
+    if (self->type == ET_Weapon && self->flip.x == 1) {
+        self->hitbox.offsetx = 16 - self->hitbox.w;
+    }
+    else if (self->type == ET_Weapon && self->flip.x == 0) {
+        if (self->weaponType == Shortsword || self->weaponType == Dagger)
+            self->hitbox.offsetx = 40;
+        else self->hitbox.offsetx = 48;
+    }
 }
 
 void entity_tile_collision(int** tiles) {
