@@ -43,13 +43,13 @@
     {
       "height": 64,
       "id": 1,
-      "name": "bat",
+      "name": "pyro",
       "rotation": 0,
-      "type": "bat",
+      "type": "pyro",
       "visible": true,
       "width": 32,
       "x": 650,
-      "y": 222
+      "y": 261.5
     }
   ]
 }

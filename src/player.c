@@ -74,6 +74,12 @@ void player_touch(Entity *self, Entity *other){
         else if (other->monType == MT_Wolf || other->monType == MT_Bat) {
             other->hitbox.isActive = false;
         }
+        if (other->type == ET_Projectile) {
+            other->owner->summonCount--;
+            gf2d_actor_set_action(&other->owner->actor, "cast_fireball");
+            other->owner->attack_cooldown = 15;
+            entity_free(other);
+        }
     }
 }
 

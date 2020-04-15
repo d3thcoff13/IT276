@@ -76,9 +76,9 @@ void load_level_entities(SJson* list){
 			slog("wolf object");
 			wolf_spawn(entity);
 		}
-		else if (!strcmp(sj_get_string_value(objectContent), "firemage")) {
+		else if (!strcmp(sj_get_string_value(objectContent), "pyro")) {
 			slog("firemage object");
-			//firemage_spawn(entity);
+			pyro_spawn(entity);
 		}
 		ctr++;
 		int x, y;

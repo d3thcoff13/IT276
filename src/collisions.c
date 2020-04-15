@@ -22,7 +22,7 @@ void check_tile_ahead(Entity* self, int** tiles) {
 void collision_check_all(Entity* ents, Uint32 entity_max) {
 	for (int i = 0; i < entity_max - 1; i++) {
 		if (ents[i]._inuse != 1 || ents[i].hitbox.isActive == 0)continue;
-		if (ents[i].type != ET_Player && ents[i].type != ET_Weapon) continue;
+		if (ents[i].type != ET_Player && ents[i].type != ET_Weapon && ents[i].type != ET_Projectile) continue;
 		for (int j = 1; j < entity_max; j++) {
 			if(ents[j]._inuse != 1 || ents[j].hitbox.isActive == 0)continue;
 			if (ents[i].owner == ents[j].owner || i == j) continue;

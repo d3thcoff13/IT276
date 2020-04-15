@@ -170,12 +170,13 @@
     <ClInclude Include="..\..\include\gf2d_sprite.h" />
     <ClInclude Include="..\..\include\level.h" />
     <ClInclude Include="..\..\include\m_bat.h" />
-    <ClInclude Include="..\..\include\m_firemage.h" />
+    <ClInclude Include="..\..\include\m_pyromancer.h" />
     <ClInclude Include="..\..\include\m_Necromancer.h" />
     <ClInclude Include="..\..\include\m_skeleton.h" />
     <ClInclude Include="..\..\include\m_wolf.h" />
     <ClInclude Include="..\..\include\player.h" />
     <ClInclude Include="..\..\include\p_weapon.h" />
+    <ClInclude Include="..\..\src\p_fireball.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\gfc\simple_json\src\simple_json.c" />
@@ -204,11 +205,12 @@
     <ClCompile Include="..\..\src\gf2d_sprite.c" />
     <ClCompile Include="..\..\src\level.c" />
     <ClCompile Include="..\..\src\m_bat.c" />
-    <ClCompile Include="..\..\src\m_firemage.c" />
+    <ClCompile Include="..\..\src\m_pyromancer.c" />
     <ClCompile Include="..\..\src\m_Necromancer.c" />
     <ClCompile Include="..\..\src\m_skeleton.c" />
     <ClCompile Include="..\..\src\m_wolf.c" />
     <ClCompile Include="..\..\src\player.c" />
+    <ClCompile Include="..\..\src\p_fireball.c" />
     <ClCompile Include="..\..\src\p_weapon.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

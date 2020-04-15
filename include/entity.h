@@ -34,7 +34,7 @@ typedef enum
     MT_Necro = 1,
     MT_Wolf = 2,
     MT_Bat = 3,
-    MT_FireMage = 4
+    MT_Pyro = 4
 }MonsterType;
 
 
