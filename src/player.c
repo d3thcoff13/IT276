@@ -148,6 +148,7 @@ void player_touch(Entity *self, Entity *other){
         }else
         if (other->obstacleType == OT_Spikes && self->stoneskin == false)entity_free(self);
     }
+    if (other->type == ET_Obstacle)self->position.x += (self->position.x > other->position.x ? 1 : -1)* other->hitbox.w;
 }
 
 Entity *init_player(Entity *self){
