@@ -68,18 +68,18 @@ void load_level_entities(SJson* list){
 			slog("skeleton object");
 			skeleton_spawn(entity);
 		}
-		/*else if (!strcmp(sj_get_string_value(objectContent), "bat")) {
+		else if (!strcmp(sj_get_string_value(objectContent), "bat")) {
 			slog("bat object");
-			monster_spawn(entity);
+			//bat_spawn(entity);
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "wolf")) {
 			slog("wolf object");
-			monster_spawn(entity);
+			wolf_spawn(entity);
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "firemage")) {
 			slog("firemage object");
-			monster_spawn(entity);
-		}*/
+			//firemage_spawn(entity);
+		}
 		ctr++;
 		int x, y;
 		

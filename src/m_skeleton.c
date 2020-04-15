@@ -53,6 +53,9 @@ Entity* skeleton_spawn(Entity* self) {
 
     self->state = MS_IDLE;
 
+
+    self->attack_cooldown = 0;
+
     vector2d_set(self->scale, 1, 1);
     vector2d_set(self->drawOffset, 0, -4);
     vector2d_set(self->velocity, 0, 0);

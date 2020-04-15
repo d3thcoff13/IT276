@@ -4,3 +4,4 @@
 #define MS_ATTACK   4
 #define MS_HURT     5
 #define MS_DEAD     6
+

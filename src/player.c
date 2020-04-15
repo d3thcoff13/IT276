@@ -71,6 +71,9 @@ void player_touch(Entity *self, Entity *other){
             other->state = 1;
             other->attack_cooldown = 3;
         }
+        else if (other->monType == MT_Wolf) {
+            other->hitbox.isActive = false;
+        }
     }
 }
 

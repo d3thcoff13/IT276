@@ -219,7 +219,7 @@ void update_searchbox_position(Entity* self) {
 void entity_tile_collision(int** tiles) {
         for (int i = 0; i < entity_manager.maxEnts; i++) {
             if (entity_manager.entityList[i]._inuse) {
-                if (entity_manager.entityList[i].type != ET_Player)
+                if (entity_manager.entityList[i].type != ET_Player && entity_manager.entityList[i].type != ET_Enemy)
                     continue;
                 check_tile_ahead(&entity_manager.entityList[i], tiles);
             }

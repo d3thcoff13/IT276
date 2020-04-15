@@ -33,7 +33,7 @@ type:   loop
 action: run
 startFrame: 18
 endFrame: 22
-frameRate: 0.75
+frameRate: 0.1
 type:   loop
 
 action: bark
@@ -43,7 +43,7 @@ frameRate: 0.75
 type:   pass
 
 action: attack
-startFrame: 0
-endFrame: 3
+startFrame: 36
+endFrame: 39
 frameRate: 0.1
 type:   pass
