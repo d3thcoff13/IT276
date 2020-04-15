@@ -117,22 +117,33 @@ void entity_update_all()
 
 void entity_draw(Entity *self)
 {
+    Sprite* sprite = NULL;
+    Uint32 frame;
     SDL_Rect rect, rect2;
     if (self == NULL)
     {
         slog("cannot draw sprite, NULL entity provided!");
         return;
     }
-    if(!(self->actor.sprite))slog("aw");
+    if (self->actor.sprite) {
+        sprite = self->actor.sprite;
+        frame = (Uint32)self->actor.frame;
+    }
+    else if (self->sprite) {
+        sprite = self->sprite;
+        frame = (Uint32)self->frame;
+    }
+    else slog("no sprite found");
+
     gf2d_sprite_draw(
-        self->actor.sprite,
+        sprite,
         vector2d(self->position.x + self->drawOffset.x,self->position.y + self->drawOffset.y),
         &self->scale,
         NULL,
         NULL,
         &self->flip,
         NULL,
-        (Uint32)self->actor.frame);
+        frame);
     //gf2d_draw_circle(self->position, self->radius, vector4d(255,0,255,255));
     gfc_rect_set(rect,self->hitbox.x + self->hitbox.offsetx,self->hitbox.y + self->hitbox.offsety ,self->hitbox.w,self->hitbox.h);
     if (self->searchbox.isActive) {
