@@ -75,6 +75,7 @@ Entity *entity_new()
     {
         if (entity_manager.entityList[i]._inuse)continue;
         entity_manager.entityList[i]._inuse = 1;
+        slog("entity created");
         return &entity_manager.entityList[i];
     }
     slog("out of open entity slots in memory!");
@@ -122,7 +123,7 @@ void entity_draw(Entity *self)
         slog("cannot draw sprite, NULL entity provided!");
         return;
     }
-    if(!(self->actor.sprite))slog("awfk");
+    if(!(self->actor.sprite))slog("aw");
     gf2d_sprite_draw(
         self->actor.sprite,
         vector2d(self->position.x + self->drawOffset.x,self->position.y + self->drawOffset.y),
@@ -133,7 +134,7 @@ void entity_draw(Entity *self)
         NULL,
         (Uint32)self->actor.frame);
     //gf2d_draw_circle(self->position, self->radius, vector4d(255,0,255,255));
-    gfc_rect_set(rect,self->hitbox.x,self->hitbox.y,self->hitbox.w,self->hitbox.h);
+    gfc_rect_set(rect,self->hitbox.x + self->hitbox.offsetx,self->hitbox.y + self->hitbox.offsety ,self->hitbox.w,self->hitbox.h);
     gf2d_draw_rect(rect,vector4d(255,0,255,255));
 }
 

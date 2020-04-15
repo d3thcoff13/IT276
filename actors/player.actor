@@ -45,19 +45,19 @@ type:   pass
 action: attack_vert_stand
 startFrame: 37
 endFrame: 40
-frameRate: 0.75
-type:   passattack_stab
+frameRate: 0.1
+type:   pass
 
 action: attack_hori_stand
 startFrame: 43
 endFrame: 45
-frameRate: 0.75
+frameRate: 0.1
 type:   pass
 
 action: attack_stab_stand
 startFrame: 49
 endFrame: 50
-frameRate: 0.75
+frameRate: 0.1
 type:   pass
 
 action: block_stand

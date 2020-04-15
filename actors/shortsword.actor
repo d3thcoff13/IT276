@@ -1,0 +1,19 @@
+sprite: ../../images/spritesheets/shortswordsheet.png
+frameWidth: 64
+frameHeight: 66
+framesPerLine: 4
+scale: 1,1
+color: 255,255,255,255
+colorSpecial: 10,255,100,255
+
+action: idle
+startFrame: 0
+endFrame: 0
+frameRate: 0.1
+type:   loop
+
+action: attack
+startFrame: 1
+endFrame: 3
+frameRate: 0.1
+type:   pass

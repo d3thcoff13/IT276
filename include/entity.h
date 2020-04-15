@@ -6,6 +6,14 @@
 #include "gf2d_physics.h"
 #include <stdbool.h>
 
+typedef enum
+{
+    Dagger,
+    Rapier,
+    Mace,
+    Spear,
+    Shortsword
+}WeaponTypes;
 
 typedef enum
 {
@@ -16,7 +24,8 @@ typedef enum
     ET_Stage = 4,
     ET_Hazard = 5,
     ET_Healthbar = 6,
-    ET_Energybar = 7
+    ET_Energybar = 7,
+    ET_Weapon = 8
 }EntityType;
 
 typedef struct BoundBox
@@ -59,8 +68,10 @@ typedef struct Entity_S
     EntityType		type;
     bool grounded;
     //Physics     physics;
+    struct Entity_S* weapon;
+    struct Entity_S* owner;
 
-    
+    enum WeaponType weaponType;
 }Entity;
 
 void entity_free_all();

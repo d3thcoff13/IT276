@@ -1,6 +1,7 @@
 #include "player.h"
 #include "simple_logger.h"
 #include "simple_json.h"
+#include "p_weapon.h"
 
 #define ES_IDLE 1
 #define ES_RUN 2
@@ -62,7 +63,7 @@ void player_touch(Entity *self, Entity *other){
         self->state = ES_HURT;
         self->hitbox.isActive = false;
         self->health -= other->damage;
-        self->position.x -= 20;
+        self->position.x += (self->position.x > other->position.x ? -1 : 1) * 20;
         gf2d_actor_set_action(&self->actor, "stand_hurt");
         vector2d_set(self->velocity, (self->flip.x == 0? -4:4), self->velocity.y);
         slog("health now %f", self->health);
@@ -89,9 +90,13 @@ Entity *init_player(Entity *self){
     //State info
     self->grounded = true;
     self->state = ES_IDLE;
+
+    self->owner = self;
+    self->weapon = entity_new();
+    init_weapon(self->weapon, self, Mace); //Dagger);
     
     //Create Hitbox
-    set_hitbox(self, self->position.x, self->position.y, 32, 58, 0, 16);
+    set_hitbox(self, self->position.x, self->position.y, 32, 64, 0, 8);
     self->hitbox.isActive = true;
 
     //Stats
@@ -110,7 +115,9 @@ void getPlayerInputs(Entity *self) {
     if (buttons[SDL_SCANCODE_J]) {
         if (self->state != ES_ATTACK) {
             self->state = ES_ATTACK;
-            gf2d_actor_set_action(&self->actor, "attack_vert_stand");
+            if(self->weapon->weaponType == Dagger || self->weapon->weaponType == Shortsword)gf2d_actor_set_action(&self->actor, "attack_hori_stand");
+            else if(self->weapon->weaponType == Spear || self->weapon->weaponType == Rapier)gf2d_actor_set_action(&self->actor, "attack_stab_stand");
+            else gf2d_actor_set_action(&self->actor, "attack_vert_stand");
             vector2d_set(self->velocity, 0, 0);
             self->attack = 1;
         }
@@ -119,7 +126,7 @@ void getPlayerInputs(Entity *self) {
         if (self->state != ES_JUMP) {
             self->state = ES_JUMP;
             self->grounded = false;
-            vector2d_set(self->velocity, self->velocity.x, self->velocity.y - 7);
+            vector2d_set(self->velocity, self->velocity.x, self->velocity.y - 15);
             gf2d_actor_set_action(&self->actor, "jump");
         }
     }
