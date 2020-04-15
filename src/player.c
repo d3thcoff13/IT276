@@ -11,6 +11,7 @@
 #define ES_ATTACK 6
 #define ES_HURT 7
 #define ES_SLIDE 8
+#define ES_DASH 9
 
 
 SDL_Event event;
@@ -18,7 +19,7 @@ SDL_Event event;
 void player_think(Entity *self){
     const Uint8 *buttons;
     if (!self)return;
-    if (!(self->grounded))vector2d_set(self->velocity, self->velocity.x, self->velocity.y + 0.3);
+    if (!(self->grounded) && self->state != ES_DASH)vector2d_set(self->velocity, self->velocity.x, self->velocity.y + 0.3);
     else if (self->grounded)vector2d_set(self->velocity, self->velocity.x, 0);
     gf2d_actor_next_frame(&self->actor);
     update_hitbox_position(self);
@@ -75,6 +76,20 @@ void player_think(Entity *self){
                     self->rotation = vector3d(0, 0, 0);
                     set_hitbox(self, self->position.x, self->position.y, 32, 48, 0, 10);
                     self->drawOffset.y = 0;
+                }
+            }
+            break;
+        case ES_DASH:
+            if (self->flip.x == 0) {
+                self->velocity.x -= 0.1;
+                if (self->velocity.x <= 0) {
+                    self->state = ES_JUMP;
+                }
+            }
+            else {
+                self->velocity.x += 0.1;
+                if (self->velocity.x >= 0) {
+                    self->state = ES_JUMP;
                 }
             }
             break;
@@ -232,6 +247,7 @@ void getPlayerInputs(Entity *self) {
                     }
                 }
             }
+            break;
             case SDLK_k:
                 if (self->state == ES_CROUCH) {
                     gf2d_actor_set_action(&self->actor, "slide");
@@ -241,6 +257,13 @@ void getPlayerInputs(Entity *self) {
                     self->drawOffset.y = 40;
                     set_hitbox(self, self->position.x, self->position.y, 48, 24, 12, 12);
                 }
+                if (self->grounded == false && self->canAirDash) {
+                    gf2d_actor_set_action(&self->actor, "slide");
+                    self->state = ES_DASH;
+                    self->velocity.x = self->flip.x == 1 ? -6 : 6;
+                    self->velocity.y = 0;
+                }
+                break;
             default:
                 break;
             }
