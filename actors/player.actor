@@ -65,3 +65,9 @@ startFrame: 55
 endFrame: 55
 frameRate: 0.75
 type:   loop
+
+action: slide
+startFrame: 108
+endFrame: 108
+frameRate: 0.1
+type:   loop

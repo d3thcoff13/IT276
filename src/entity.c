@@ -138,12 +138,14 @@ void entity_draw(Entity *self)
         frame = NULL;
     }
 
+    if (&self->rotation == NULL)slog("ye");
+
     gf2d_sprite_draw(
         sprite,
         vector2d(self->position.x + self->drawOffset.x,self->position.y + self->drawOffset.y),
         &self->scale,
         NULL,
-        NULL,
+        &self->rotation,
         &self->flip,
         NULL,
         frame);

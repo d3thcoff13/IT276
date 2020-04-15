@@ -10,6 +10,7 @@
 #define ES_JUMP 5
 #define ES_ATTACK 6
 #define ES_HURT 7
+#define ES_SLIDE 8
 
 
 SDL_Event event;
@@ -51,11 +52,38 @@ void player_think(Entity *self){
                 self->cooldown = 0;
                 self->hitbox.isActive = true;
             }
+            if (!vector3d_equal(self->rotation,vector3d(0,0,0))) {
+                self->rotation = vector3d(0, 0, 0);
+                set_hitbox(self, self->position.x, self->position.y, 32, 48, 0, 10);
+                self->drawOffset.y = 0;
+            }
+
+            break;
+        case ES_SLIDE:
+            if (self->flip.x == 0) {
+                self->velocity.x -= 0.1;
+                if (self->velocity.x <= 0) {
+                    self->state = ES_CROUCH;
+                    self->rotation = vector3d(0, 0, 0);
+                    set_hitbox(self, self->position.x, self->position.y, 32, 48, 0, 10);
+                    self->drawOffset.y = 0;
+                }
+            } else{
+                self->velocity.x += 0.1;
+                if (self->velocity.x >= 0) {
+                    self->state = ES_CROUCH;
+                    self->rotation = vector3d(0, 0, 0);
+                    set_hitbox(self, self->position.x, self->position.y, 32, 48, 0, 10);
+                    self->drawOffset.y = 0;
+                }
+            }
             break;
         default:
-            vector2d_set(self->velocity,0,0);
-            gf2d_actor_set_action(&self->actor,"idle");
-            break;
+            if (self->state != ES_SLIDE) {
+                vector2d_set(self->velocity, 0, 0);
+                gf2d_actor_set_action(&self->actor, "idle");
+            }
+                break;
     }
     if (self->cooldown == 0)getPlayerInputs(self);
     if(self->position.y >= 500)entity_free_all();
@@ -113,7 +141,7 @@ Entity *init_player(Entity *self){
     
     //Create Hitbox
     //set_hitbox(self, self->position.x, self->position.y, 32, 64, 0, 8);
-    set_hitbox(self, self->position.x, self->position.y, 32, 48, 0, 12);
+    set_hitbox(self, self->position.x, self->position.y, 32, 48, 0, 10);
     self->hitbox.isActive = true;
 
     //Stats
@@ -139,14 +167,6 @@ void getPlayerInputs(Entity *self) {
             self->attack = 1;
         }
     }
-    /*else if (buttons[SDL_SCANCODE_W]) {
-        if (self->state != ES_JUMP) {
-            self->state = ES_JUMP;
-            self->grounded = false;
-            vector2d_set(self->velocity, self->velocity.x, self->velocity.y - 15);
-            gf2d_actor_set_action(&self->actor, "jump");
-        }
-    }*/
     else if (buttons[SDL_SCANCODE_D])
     {
         if (buttons[SDL_SCANCODE_SPACE])
@@ -179,7 +199,7 @@ void getPlayerInputs(Entity *self) {
             vector2d_set(self->flip, 1, 0);
     }
     else if (buttons[SDL_SCANCODE_S]) {
-        if (self->state != ES_CROUCH) {
+        if (self->state != ES_CROUCH && self->state != ES_SLIDE) {
             self->state = ES_CROUCH;
             gf2d_actor_set_action(&self->actor, "crouch");
         }
@@ -189,7 +209,7 @@ void getPlayerInputs(Entity *self) {
         slog("Player Data saved.");
     }
     else {
-        if (self->grounded)self->state = ES_IDLE;
+        if (self->grounded && self->state != ES_SLIDE)self->state = ES_IDLE;
     }
     while (SDL_PollEvent(&event))
     {
@@ -212,6 +232,15 @@ void getPlayerInputs(Entity *self) {
                     }
                 }
             }
+            case SDLK_k:
+                if (self->state == ES_CROUCH) {
+                    gf2d_actor_set_action(&self->actor, "slide");
+                    self->velocity.x = self->flip.x == 1? -6:6;
+                    self->state = ES_SLIDE;
+                    self->rotation = vector3d(0, 0, 270);
+                    self->drawOffset.y = 40;
+                    set_hitbox(self, self->position.x, self->position.y, 48, 24, 12, 12);
+                }
             default:
                 break;
             }
