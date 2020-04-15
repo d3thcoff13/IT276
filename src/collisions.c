@@ -11,8 +11,10 @@ void check_tile_ahead(Entity* self, int** tiles) {
 	int upper_tile = ((self->position.y + self->hitbox.offsety) / 32);
 	int t = 0;
 	for (int i = left_bound; i <= right_bound; i++) {
-		if (tiles[bottom_tile][i] != 0 && vector2d_magnitude_between(vector2d(0, self->position.y + self->hitbox.offsety + self->hitbox.h - 16), vector2d(0, bottom_tile * 32)) <= 1.5) {
+		if (tiles[bottom_tile][i] != 0 && vector2d_magnitude_between(vector2d(0, self->position.y + self->hitbox.offsety + self->hitbox.h - 16), vector2d(0, bottom_tile * 32)) <= 16) {
 			self->grounded = true;
+			self->position.y = (bottom_tile * 32) - self->hitbox.h - self->hitbox.offsety;
+			if (self->type == ET_Player)self->canDoubleJump = true;
 			t++;
 		}
 		else self->grounded = false;

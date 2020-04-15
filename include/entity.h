@@ -73,6 +73,7 @@ typedef struct Entity_S
     int cooldown;
 
     bool canDamage;
+    bool canDoubleJump;
     int damage;
 
     EntityType		type;

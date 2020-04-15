@@ -133,7 +133,10 @@ void entity_draw(Entity *self)
         sprite = self->sprite;
         frame = (Uint32)self->frame;
     }
-    else slog("no sprite found");
+    else {
+        slog("no sprite found");
+        frame = NULL;
+    }
 
     gf2d_sprite_draw(
         sprite,

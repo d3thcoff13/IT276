@@ -11,10 +11,13 @@
 #define ES_ATTACK 6
 #define ES_HURT 7
 
+
+SDL_Event event;
+
 void player_think(Entity *self){
     const Uint8 *buttons;
     if (!self)return;
-    if (!(self->grounded))vector2d_set(self->velocity, self->velocity.x, self->velocity.y + 0.5);
+    if (!(self->grounded))vector2d_set(self->velocity, self->velocity.x, self->velocity.y + 0.3);
     else if (self->grounded)vector2d_set(self->velocity, self->velocity.x, 0);
     gf2d_actor_next_frame(&self->actor);
     update_hitbox_position(self);
@@ -109,7 +112,8 @@ Entity *init_player(Entity *self){
     init_weapon(self->weapon, self, Mace); //Dagger);
     
     //Create Hitbox
-    set_hitbox(self, self->position.x, self->position.y, 32, 64, 0, 8);
+    //set_hitbox(self, self->position.x, self->position.y, 32, 64, 0, 8);
+    set_hitbox(self, self->position.x, self->position.y, 32, 48, 0, 12);
     self->hitbox.isActive = true;
 
     //Stats
@@ -135,14 +139,14 @@ void getPlayerInputs(Entity *self) {
             self->attack = 1;
         }
     }
-    else if (buttons[SDL_SCANCODE_W]) {
+    /*else if (buttons[SDL_SCANCODE_W]) {
         if (self->state != ES_JUMP) {
             self->state = ES_JUMP;
             self->grounded = false;
             vector2d_set(self->velocity, self->velocity.x, self->velocity.y - 15);
             gf2d_actor_set_action(&self->actor, "jump");
         }
-    }
+    }*/
     else if (buttons[SDL_SCANCODE_D])
     {
         if (buttons[SDL_SCANCODE_SPACE])
@@ -186,6 +190,34 @@ void getPlayerInputs(Entity *self) {
     }
     else {
         if (self->grounded)self->state = ES_IDLE;
+    }
+    while (SDL_PollEvent(&event))
+    {
+        switch (event.type)
+        {
+        case SDL_KEYDOWN:
+            switch (event.key.keysym.sym) {
+            case SDLK_w: {
+                if (self->state != ES_JUMP) {
+                    self->state = ES_JUMP;
+                    self->grounded = false;
+                    self->velocity.y = -8;
+                    gf2d_actor_set_action(&self->actor, "jump");
+                }
+                else {
+                    if (self->canDoubleJump && self->grounded == false) {
+                        self->velocity.y = -8;
+                        self->canDoubleJump = false;
+                        gf2d_actor_set_action(&self->actor, "jump");
+                    }
+                }
+            }
+            default:
+                break;
+            }
+        default:
+            break;
+        }
     }
 }
 
