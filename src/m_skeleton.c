@@ -66,7 +66,7 @@ Entity* skeleton_spawn(Entity* self) {
     self->canDamage = true;
     self->damage = 10;
 
-    set_hitbox(self, self->position.x, self->position.y, 32, 58, 0, 16);
+    set_hitbox(self, self->position.x, self->position.y, 32, 48, 0, 16);
     self->hitbox.isActive = true;
     self->monType = MT_Skeleton;
 

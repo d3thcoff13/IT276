@@ -25,7 +25,7 @@ void entity_free_all() {
             entity_free(&entity_manager.entityList[i]);
         }
     }
-    change_level("../../levels/demo2.json");
+    change_level("../../levels/test2.json");
 }
 
 void entity_manager_close()

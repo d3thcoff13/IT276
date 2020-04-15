@@ -2,6 +2,9 @@
 #include "level.h"
 #include "m_Necromancer.h"
 #include "m_skeleton.h"
+#include "m_bat.h"
+#include "m_wolf.h"
+#include "m_pyromancer.h"
 #include "simple_logger.h"
 #include "game.h"
 #include "obstacles.h"
@@ -57,46 +60,35 @@ void load_level_entities(SJson* list){
 		Entity* entity = entity_new();
 
 		if (!strcmp(sj_get_string_value(objectContent),"player")){
-			slog("player object");
 			init_player(entity);
 			player_entity = entity;
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "necro")) {
-			slog("necro object");
 			necro_spawn(entity);
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "skeleton")) {
-			slog("skeleton object");
 			skeleton_spawn(entity);
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "bat")) {
-			slog("bat object");
 			bat_spawn(entity);
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "wolf")) {
-			slog("wolf object");
 			wolf_spawn(entity);
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "pyro")) {
-			slog("firemage object");
 			pyro_spawn(entity);
 			entity_free(entity);
 		}else if (!strcmp(sj_get_string_value(objectContent), "tree")) {
-			slog("i am groot");
 			init_tree(entity);
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "boulder")) {
-			slog("it's not a rock, it's a boulder!");
 			init_boulder(entity);
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "demondoor")) {
-			slog("demon door");
 			init_demon_door(entity);
 		}else if (!strcmp(sj_get_string_value(objectContent), "lightningdoor")) {
-			slog("lightning door");
 			init_lightning_door(entity);
 		}else if (!strcmp(sj_get_string_value(objectContent), "spikes")) {
-			slog("DEADSPIKE");
 			init_spikes(entity);
 		}
 		ctr++;
@@ -124,7 +116,7 @@ void draw_tiles(Level* level){
 
 void change_level() {
 	memset(level->tiles, 0, sizeof(int *));
-	memset(level, 0, sizeof(Entity));
+	memset(level, 0, sizeof(Level));
 	load_level("../../levels/demo2.json");
 }
 

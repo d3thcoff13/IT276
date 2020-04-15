@@ -4,6 +4,12 @@
 #include "p_weapon.h"
 #include "p_fireball.h"
 #include "spells.h"
+#include "m_Necromancer.h"
+#include "m_skeleton.h"
+#include "m_bat.h"
+#include "m_wolf.h"
+#include "m_pyromancer.h"
+#include "obstacles.h"
 
 #define ES_IDLE 1
 #define ES_RUN 2
@@ -17,6 +23,8 @@
 
 
 SDL_Event event;
+Entity* entToSpawn;
+int currentWeapon;
 
 void player_think(Entity *self){
     const Uint8 *buttons;
@@ -112,7 +120,6 @@ void player_think(Entity *self){
                 break;
     }
     if (self->cooldown == 0)getPlayerInputs(self);
-    if(self->position.y >= 500)entity_free_all();
 }
 
 void player_touch(Entity *self, Entity *other){
@@ -166,6 +173,7 @@ Entity *init_player(Entity *self){
     self->canWallJump = true;
     self->canDoubleJump =true;
 
+    currentWeapon = Mace;
     self->owner = self;
     self->weapon = entity_new();
     init_weapon(self->weapon, self, Mace);
@@ -318,6 +326,59 @@ void getPlayerInputs(Entity *self) {
                 break;
             case SDLK_5:
                 throw_holy_water(self);
+                break;
+            case SDLK_q:
+                entity_free_all();
+                break;
+            case SDLK_6:
+                entToSpawn = entity_new();
+                necro_spawn(entToSpawn);
+                entToSpawn->position = vector2d(self->position.x + 200, self->position.y);
+                break;
+            case SDLK_7:
+                entToSpawn = entity_new();
+                pyro_spawn(entToSpawn);
+                entToSpawn->position = vector2d(self->position.x + 200, self->position.y);
+                break;
+            case SDLK_8:
+                entToSpawn = entity_new();
+                bat_spawn(entToSpawn);
+                entToSpawn->position = vector2d(self->position.x + 200, self->position.y-50);
+                break;
+            case SDLK_9:
+                entToSpawn = entity_new();
+                wolf_spawn(entToSpawn);
+                entToSpawn->position = vector2d(self->position.x + 200, self->position.y);
+                break;
+            case SDLK_SEMICOLON:
+                entToSpawn = entity_new();
+                init_boulder(entToSpawn);
+                entToSpawn->position = vector2d(self->position.x + 200, self->position.y);
+                break;
+            case SDLK_EQUALS:
+                entToSpawn = entity_new();
+                init_tree(entToSpawn);
+                entToSpawn->position = vector2d(self->position.x + 200, self->position.y);
+                break;
+            case SDLK_LEFTBRACKET:
+                entToSpawn = entity_new();
+                init_lightning_door(entToSpawn);
+                entToSpawn->position = vector2d(self->position.x + 200, self->position.y);
+                break;
+            case SDLK_RIGHTBRACKET:
+                entToSpawn = entity_new();
+                init_demon_door(entToSpawn);
+                entToSpawn->position = vector2d(self->position.x + 200, self->position.y);
+                break;
+            case SDLK_MINUS:
+                entToSpawn = entity_new();
+                init_spikes(entToSpawn);
+                entToSpawn->position = vector2d(self->position.x + 200, self->position.y);
+                break;
+            case SDLK_0:
+                if (currentWeapon == Shortsword)currentWeapon = Dagger;
+                else currentWeapon++;
+                init_weapon(self->weapon, self, currentWeapon);
                 break;
             default:
                 break;

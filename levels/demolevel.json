@@ -40,16 +40,5 @@
       "x": 417,
       "y": 261.5
     }
-    {
-      "height": 64,
-      "id": 1,
-      "name": "demondoor",
-      "rotation": 0,
-      "type": "pyro",
-      "visible": true,
-      "width": 32,
-      "x": 650,
-      "y": 261.5
-    }
   ]
 }

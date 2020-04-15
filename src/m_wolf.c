@@ -89,7 +89,7 @@ Entity* wolf_spawn(Entity* self) {
     self->damage = 10;
     self->state = MS_IDLE;
 
-    set_hitbox(self, self->position.x, self->position.y, 64, 56, 0, -8);
+    set_hitbox(self, self->position.x, self->position.y, 64, 32, 0, 0);
     self->hitbox.isActive = true;
     self->aggro = false;
     set_searchbox(self, self->position.x, self->position.y, 200, 64, -70, -16);
