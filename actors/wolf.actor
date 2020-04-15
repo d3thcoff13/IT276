@@ -1,0 +1,49 @@
+sprite: ../../images/spritesheets/wolf.png
+frameWidth: 64
+frameHeight: 32
+framesPerLine: 9
+scale: 1,1
+color: 255,255,255,255
+colorSpecial: 10,255,100,255
+
+action: sleep
+startFrame: 0
+endFrame: 0
+frameRate: 0.75
+type:   loop
+
+action: wake
+startFrame: 0
+endFrame: 3
+frameRate: 0.75
+type:   pass
+
+action: idle
+startFrame: 3
+endFrame: 3
+frameRate: 0.1
+type:   loop
+
+action: walk
+startFrame: 9
+endFrame: 13
+frameRate: 0.75
+type:   loop
+
+action: run
+startFrame: 18
+endFrame: 22
+frameRate: 0.75
+type:   loop
+
+action: bark
+startFrame: 27
+endFrame: 35
+frameRate: 0.75
+type:   pass
+
+action: attack
+startFrame: 0
+endFrame: 3
+frameRate: 0.1
+type:   pass

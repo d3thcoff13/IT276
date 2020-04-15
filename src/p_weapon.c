@@ -73,10 +73,11 @@ void weapon_touch(Entity* self, Entity* other) {
 	if (other->type == ET_Enemy) {
 		other->health -= self->damage;
 		other->position.x += (self->owner->position.x > other->position.x?-1:1) * 20;
-		gf2d_actor_set_action(&self->actor, "stand_hurt");
+		gf2d_actor_set_action(&other->actor, "hurt");
+		other->state = 5;
 		vector2d_set(self->velocity, (self->flip.x == 0 ? -4 : 4), self->velocity.y);
 		slog("health now %f", self->health);
-		if (other->health <= 0)entity_free(other);
+		if (other->health <= 0)other->state = 6;
 
 	}
 	return; 

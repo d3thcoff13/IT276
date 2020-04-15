@@ -11,3 +11,17 @@ startFrame: 0
 endFrame: 0
 frameRate: 0.1
 type:   loop
+
+
+action: walk
+startFrame: 6
+endFrame: 11
+frameRate: 0.1
+type:   loop
+
+
+action: hurt
+startFrame: 12
+endFrame: 14
+frameRate: 0.1
+type:   pass

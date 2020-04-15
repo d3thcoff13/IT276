@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "level.h"
 #include "m_Necromancer.h"
+#include "m_skeleton.h"
 #include "simple_logger.h"
 #include "game.h"
 
@@ -57,11 +58,28 @@ void load_level_entities(SJson* list){
 		if (!strcmp(sj_get_string_value(objectContent),"player")){
 			slog("player object");
 			init_player(entity);
+			player_entity = entity;
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "necro")) {
 			slog("necro object");
+			necro_spawn(entity);
+		}
+		else if (!strcmp(sj_get_string_value(objectContent), "skeleton")) {
+			slog("skeleton object");
+			skeleton_spawn(entity);
+		}
+		/*else if (!strcmp(sj_get_string_value(objectContent), "bat")) {
+			slog("bat object");
 			monster_spawn(entity);
 		}
+		else if (!strcmp(sj_get_string_value(objectContent), "wolf")) {
+			slog("wolf object");
+			monster_spawn(entity);
+		}
+		else if (!strcmp(sj_get_string_value(objectContent), "firemage")) {
+			slog("firemage object");
+			monster_spawn(entity);
+		}*/
 		ctr++;
 		int x, y;
 		

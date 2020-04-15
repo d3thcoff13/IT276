@@ -2,3 +2,4 @@
 
 Level* level;
 Level* getCurrentLevel();
+Entity* player_entity;

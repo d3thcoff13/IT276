@@ -117,7 +117,7 @@ void entity_update_all()
 
 void entity_draw(Entity *self)
 {
-    SDL_Rect rect;
+    SDL_Rect rect, rect2;
     if (self == NULL)
     {
         slog("cannot draw sprite, NULL entity provided!");
@@ -135,6 +135,10 @@ void entity_draw(Entity *self)
         (Uint32)self->actor.frame);
     //gf2d_draw_circle(self->position, self->radius, vector4d(255,0,255,255));
     gfc_rect_set(rect,self->hitbox.x + self->hitbox.offsetx,self->hitbox.y + self->hitbox.offsety ,self->hitbox.w,self->hitbox.h);
+    if (self->searchbox.isActive) {
+        gfc_rect_set(rect2, self->searchbox.x + self->searchbox.offsetx, self->searchbox.y + self->searchbox.offsety, self->searchbox.w, self->searchbox.h);
+        gf2d_draw_rect(rect2, vector4d(255, 0, 0, 255));
+    }
     gf2d_draw_rect(rect,vector4d(255,0,255,255));
 }
 
@@ -196,6 +200,20 @@ void update_hitbox_position(Entity* self) {
             self->hitbox.offsetx = 40;
         else self->hitbox.offsetx = 48;
     }
+}
+
+void set_searchbox(Entity* self, int x, int y, int w, int h, int offsetx, int offsety) {
+    self->searchbox.x = x;
+    self->searchbox.y = y;
+    self->searchbox.w = w;
+    self->searchbox.h = h;
+    self->searchbox.offsetx = offsetx;
+    self->searchbox.offsety = offsety;
+}
+
+void update_searchbox_position(Entity* self) {
+    self->searchbox.x = self->position.x;
+    self->searchbox.y = self->position.y;
 }
 
 void entity_tile_collision(int** tiles) {

@@ -41,3 +41,11 @@ bool collision_check(Entity* self, Entity* other) {
 		self->position.y + self->hitbox.h + self->hitbox.offsety > other->position.y + other->hitbox.offsety &&
 		self->position.y + self->hitbox.offsety < other->position.y + other->hitbox.offsety + other->hitbox.h);
 }
+
+bool search_check(Entity* self, Entity* other) {
+	return(
+		self->position.x + self->searchbox.w + self->searchbox.offsetx > other->position.x + other->hitbox.offsetx &&
+		self->position.x + self->searchbox.offsetx  < other->position.x + other->hitbox.offsetx + other->hitbox.w &&
+		self->position.y + self->searchbox.h + self->searchbox.offsety > other->position.y + other->hitbox.offsety &&
+		self->position.y + self->searchbox.offsety < other->position.y + other->hitbox.offsety + other->hitbox.h);
+}

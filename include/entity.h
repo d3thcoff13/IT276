@@ -28,6 +28,16 @@ typedef enum
     ET_Weapon = 8
 }EntityType;
 
+typedef enum
+{
+    MT_Skeleton = 0,
+    MT_Necro = 1,
+    MT_Wolf = 2,
+    MT_Bat = 3,
+    MT_FireMage = 4
+}MonsterType;
+
+
 typedef struct BoundBox
 {
     int x, y;
@@ -72,6 +82,14 @@ typedef struct Entity_S
     struct Entity_S* owner;
 
     enum WeaponType weaponType;
+
+    //for enemies
+    bool aggro;
+    int summonCount;
+    float attack_cooldown;
+    BoundBox searchbox;
+    enum MonsterType monType;
+
 }Entity;
 
 void entity_free_all();
@@ -108,6 +126,10 @@ void entity_set_position(Entity *self, Vector2D position);
 void set_hitbox(Entity* self, int x, int y, int w, int h, int offsetx, int offsety);
 
 void update_hitbox_position(Entity* self);
+
+void set_searchbox(Entity* self, int x, int y, int w, int h, int offsetx, int offsety);
+
+void update_searchbox_position(Entity* self);
 
 void entity_tile_collision(int** tiles);
 #endif

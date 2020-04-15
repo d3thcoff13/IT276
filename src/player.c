@@ -65,8 +65,12 @@ void player_touch(Entity *self, Entity *other){
         self->health -= other->damage;
         self->position.x += (self->position.x > other->position.x ? -1 : 1) * 20;
         gf2d_actor_set_action(&self->actor, "stand_hurt");
-        vector2d_set(self->velocity, (self->flip.x == 0? -4:4), self->velocity.y);
+        vector2d_set(self->velocity, (self->position.x > other->position.x? 4:-4), self->velocity.y);
         slog("health now %f", self->health);
+        if (other->monType == MT_Skeleton) {
+            other->state = 1;
+            other->attack_cooldown = 3;
+        }
     }
 }
 

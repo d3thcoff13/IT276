@@ -1,0 +1,31 @@
+sprite: ../../images/spritesheets/goblin_mage.png
+frameWidth: 32
+frameHeight: 64
+framesPerLine: 6
+scale: 1,1
+color: 255,255,255,255
+colorSpecial: 10,255,100,255
+
+action: idle
+startFrame: 0
+endFrame: 0
+frameRate: 0.1
+type:   loop
+
+action: walk
+startFrame: 6
+endFrame: 12
+frameRate: 0.1
+type:   loop
+
+action: stand_hurt
+startFrame: 18
+endFrame: 20
+frameRate: 0.5
+type:   pass
+
+action: summon_skeleton
+startFrame: 30
+endFrame: 33
+frameRate: 0.1
+type:   pass

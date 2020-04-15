@@ -1,0 +1,25 @@
+sprite: ../../images/spritesheets/bat.png
+frameWidth: 32
+frameHeight: 32
+framesPerLine: 7
+scale: 1,1
+color: 255,255,255,255
+colorSpecial: 10,255,100,255
+
+action: dead
+startFrame: 0
+endFrame: 0
+frameRate: 0.75
+type:   pass
+
+action: fly
+startFrame: 14
+endFrame: 16
+frameRate: 0.1
+type:   loop
+
+action: attack_telegraph
+startFrame: 7
+endFrame: 13
+frameRate: 0.75
+type:   pass

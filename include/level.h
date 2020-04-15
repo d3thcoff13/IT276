@@ -2,7 +2,6 @@
 #define __LEVEL_H__
 
 #include "gf2d_sprite.h"
-#include "entity.h"
 #include "simple_json.h"
 #include "player.h"
 
