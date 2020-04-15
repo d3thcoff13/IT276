@@ -17,11 +17,65 @@ void check_tile_ahead(Entity* self, int** tiles) {
 			if (self->type == ET_Player) {
 				self->canDoubleJump = true;
 				self->canAirDash = true;
+				self->canWallJump = true;
 			}
 			t++;
 		}
-		else self->grounded = false;
 	}
+	if(t==0) self->grounded = false;
+
+	//Check top tile
+	for (int i = left_bound; i <= right_bound; i++) {
+		if (tiles[upper_tile][i] != 0 && vector2d_magnitude_between(vector2d(0, self->position.y + self->hitbox.offsety), vector2d(0, upper_tile * 32 + 32)) <= 16) {
+			self->position.y = upper_tile*32 + 16;
+		}
+	}
+
+
+	int upper_bound = ((self->position.y + self->hitbox.offsety) / 32);
+	int lower_bound = ((self->position.y + self->hitbox.offsety + self->hitbox.h) / 32);
+	int left_tile = ((self->position.x + self->hitbox.offsetx) / 32) - 1;
+	int right_tile = ((self->position.x + self->hitbox.w + self->hitbox.offsetx) / 32) + 1;
+	int l = 0;
+	int r = 0;
+
+	//Check left tile
+	for (int i = upper_bound; i <= lower_bound; i++) {
+		if (self->grounded && i == lower_bound)
+			continue;
+		if (tiles[i][left_tile] != 0 && vector2d_magnitude_between(vector2d(self->position.x + self->hitbox.offsetx, 0), vector2d(left_tile * 32 + 32, 0)) <= 1) {
+			self->position.x = left_tile * 32 + 34;
+			self->leftWall = true;
+			self->attack_cooldown = 2;
+			self->wall = 1;
+			l++;
+		}
+	}
+	if (l == 0) {
+		self->leftWall - false;
+	}
+
+
+	//Check right tile
+
+	for (int i = upper_bound; i <= lower_bound; i++) {
+		if (self->grounded && i == lower_bound)
+			continue;
+		if (tiles[i][right_tile] != 0 && vector2d_magnitude_between(vector2d(self->position.x + self->hitbox.w + self->hitbox.offsetx, 0), vector2d(right_tile * 32, 0)) <= 2) {
+			self->position.x = right_tile * 32 - self->hitbox.w - 4;
+			self->rightWall = true;
+			self->attack_cooldown = 2;
+			//slog("right.");
+			self->wall = -1;
+			r++;
+
+		}
+
+	}
+	if (r == 0) {
+		self->rightWall = false;
+	}
+
 }
 
 void collision_check_all(Entity* ents, Uint32 entity_max) {

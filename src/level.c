@@ -78,7 +78,8 @@ void load_level_entities(SJson* list){
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "pyro")) {
 			slog("firemage object");
-			pyro_spawn(entity);
+			//pyro_spawn(entity);
+			entity_free(entity);
 		}
 		ctr++;
 		int x, y;

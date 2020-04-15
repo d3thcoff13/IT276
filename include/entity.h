@@ -75,7 +75,13 @@ typedef struct Entity_S
     bool canDamage;
     bool canDoubleJump;
     bool canAirDash;
+    bool canWallJump;
     int damage;
+
+    bool leftWall;
+    bool rightWall;
+
+    int wall;
 
     Vector3D rotation;
 

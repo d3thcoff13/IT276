@@ -21,6 +21,8 @@ void player_think(Entity *self){
     if (!self)return;
     if (!(self->grounded) && self->state != ES_DASH)vector2d_set(self->velocity, self->velocity.x, self->velocity.y + 0.3);
     else if (self->grounded)vector2d_set(self->velocity, self->velocity.x, 0);
+    self->attack_cooldown -= 0.1;
+    if (self->attack_cooldown <= 0) self->attack_cooldown = 0;
     gf2d_actor_next_frame(&self->actor);
     update_hitbox_position(self);
     switch (self->state)
@@ -94,7 +96,7 @@ void player_think(Entity *self){
             }
             break;
         default:
-            if (self->state != ES_SLIDE) {
+            if (self->state != ES_SLIDE && self->grounded == true) {
                 vector2d_set(self->velocity, 0, 0);
                 gf2d_actor_set_action(&self->actor, "idle");
             }
@@ -147,8 +149,10 @@ Entity *init_player(Entity *self){
     vector2d_set(self->velocity, 0, 0);
 
     //State info
-    self->grounded = true;
+    self->grounded = false;
     self->state = ES_IDLE;
+    self->canWallJump = true;
+    self->canDoubleJump =true;
 
     self->owner = self;
     self->weapon = entity_new();
@@ -171,61 +175,72 @@ void getPlayerInputs(Entity *self) {
     const Uint8* buttons;
 
     buttons = SDL_GetKeyboardState(NULL);
-
-    if (buttons[SDL_SCANCODE_J]) {
-        if (self->state != ES_ATTACK) {
-            self->state = ES_ATTACK;
-            if(self->weapon->weaponType == Dagger || self->weapon->weaponType == Shortsword)gf2d_actor_set_action(&self->actor, "attack_hori_stand");
-            else if(self->weapon->weaponType == Spear || self->weapon->weaponType == Rapier)gf2d_actor_set_action(&self->actor, "attack_stab_stand");
-            else gf2d_actor_set_action(&self->actor, "attack_vert_stand");
-            vector2d_set(self->velocity, 0, 0);
-            self->attack = 1;
-        }
-    }
-    else if (buttons[SDL_SCANCODE_D])
-    {
-        if (buttons[SDL_SCANCODE_SPACE])
-        {
-            if (self->state != ES_RUN) {
-                self->state = ES_RUN;
-                gf2d_actor_set_action(&self->actor, "walk");
+        if (buttons[SDL_SCANCODE_J]) {
+            if (self->state != ES_ATTACK) {
+                self->state = ES_ATTACK;
+                if (self->weapon->weaponType == Dagger || self->weapon->weaponType == Shortsword)gf2d_actor_set_action(&self->actor, "attack_hori_stand");
+                else if (self->weapon->weaponType == Spear || self->weapon->weaponType == Rapier)gf2d_actor_set_action(&self->actor, "attack_stab_stand");
+                else gf2d_actor_set_action(&self->actor, "attack_vert_stand");
+                vector2d_set(self->velocity, 0, 0);
+                self->attack = 1;
             }
         }
-        else if (self->state != ES_WALK) {
-            self->state = ES_WALK;
-            gf2d_actor_set_action(&self->actor, "walk");
-        }
-        if (self->flip.x != 0)
-            vector2d_set(self->flip, 0, 0);
-    }
-    else if (buttons[SDL_SCANCODE_A]) {
-        if (buttons[SDL_SCANCODE_SPACE])
+        else if (buttons[SDL_SCANCODE_D])
         {
-            if (self->state != ES_RUN) {
-                self->state = ES_RUN;
-                gf2d_actor_set_action(&self->actor, "walk");
+            if (self->grounded == true) {
+                if (buttons[SDL_SCANCODE_SPACE])
+                {
+                    if (self->state != ES_RUN) {
+                        self->state = ES_RUN;
+                        gf2d_actor_set_action(&self->actor, "walk");
+                    }
+                }
+                else if (self->state != ES_WALK) {
+                    self->state = ES_WALK;
+                    gf2d_actor_set_action(&self->actor, "walk");
+                }
+                if (self->flip.x != 0)
+                    vector2d_set(self->flip, 0, 0);
+            }
+            else {
+                self->flip.x = 0;
             }
         }
-        else if (self->state != ES_WALK) {
-            self->state = ES_WALK;
-            gf2d_actor_set_action(&self->actor, "walk");
+        else if (buttons[SDL_SCANCODE_A]) {
+            if (self->grounded == true) {
+                if (buttons[SDL_SCANCODE_SPACE])
+                {
+                    if (self->state != ES_RUN) {
+                        self->state = ES_RUN;
+                        gf2d_actor_set_action(&self->actor, "walk");
+                    }
+                }
+                else if (self->state != ES_WALK) {
+                    self->state = ES_WALK;
+                    gf2d_actor_set_action(&self->actor, "walk");
+                }
+                if (self->flip.x != 1)
+                    vector2d_set(self->flip, 1, 0);
+            }
+            else {
+                self->flip.x = 1;
+            }
         }
-        if (self->flip.x != 1)
-            vector2d_set(self->flip, 1, 0);
-    }
-    else if (buttons[SDL_SCANCODE_S]) {
-        if (self->state != ES_CROUCH && self->state != ES_SLIDE) {
-            self->state = ES_CROUCH;
-            gf2d_actor_set_action(&self->actor, "crouch");
+        else if (buttons[SDL_SCANCODE_S]) {
+            if (self->grounded == true) {
+                if (self->state != ES_CROUCH && self->state != ES_SLIDE) {
+                    self->state = ES_CROUCH;
+                    gf2d_actor_set_action(&self->actor, "crouch");
+                }
+            }
         }
-    }
-    else if (buttons[SDL_SCANCODE_C]) {
-        savePlayerData(self);
-        slog("Player Data saved.");
-    }
-    else {
-        if (self->grounded && self->state != ES_SLIDE)self->state = ES_IDLE;
-    }
+        else if (buttons[SDL_SCANCODE_C]) {
+            savePlayerData(self);
+            slog("Player Data saved.");
+        }
+        else {
+            if (self->grounded && self->state != ES_SLIDE)self->state = ES_IDLE;
+        }
     while (SDL_PollEvent(&event))
     {
         switch (event.type)
@@ -233,18 +248,31 @@ void getPlayerInputs(Entity *self) {
         case SDL_KEYDOWN:
             switch (event.key.keysym.sym) {
             case SDLK_w: {
-                if (self->state != ES_JUMP) {
+                if (self->grounded == true) {
                     self->state = ES_JUMP;
                     self->grounded = false;
                     self->velocity.y = -8;
                     gf2d_actor_set_action(&self->actor, "jump");
                 }
+                else if (self->canWallJump == true && self->attack_cooldown > 0) {
+                    self->velocity.x = 5 * self->wall;
+                    slog("success");
+                    self->velocity.y = -8;
+                    self->canWallJump = false;
+                    self->actor.frame = 30;
+                }
                 else {
                     if (self->canDoubleJump && self->grounded == false) {
                         self->velocity.y = -8;
                         self->canDoubleJump = false;
-                        gf2d_actor_set_action(&self->actor, "jump");
+                        self->actor.frame = 30;
+                        if (buttons[SDL_SCANCODE_A]) {
+                            self->velocity.x = -2;
+                        }else if (buttons[SDL_SCANCODE_D]) {
+                            self->velocity.x = 2;
+                        }
                     }
+                    slog("huh.");
                 }
             }
             break;
