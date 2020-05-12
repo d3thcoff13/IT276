@@ -7,6 +7,9 @@
 #include "player.h"
 #include "level.h"
 #include "game.h"
+#include "SDL_ttf.h"
+#include "g_text.h"
+
 
 
 void Save_Game(){
@@ -60,7 +63,8 @@ int main(int argc, char * argv[])
     float mf = 0;
     Sprite *mouse;
     Vector4D mouseColor = {255,100,255,200};
-
+    TTF_Font* font;
+    SDL_Texture *texture;
     
     
     /*program initializtion*/
@@ -78,6 +82,12 @@ int main(int argc, char * argv[])
     gf2d_sprite_init(1024);
     SDL_ShowCursor(SDL_DISABLE);
     entity_manager_init(1024);
+    if (TTF_Init() == 1)slog("oof");
+    font = TTF_OpenFont("../../images/calibri.ttf", 28);
+    SDL_Color textColor = { 255, 255, 255 };
+    LoadFromRenderedText(font, "IT WORKS", textColor);
+    texture = GetTextTexture();
+    SDL_Rect rect = { 200,0,320,100 };
     
     gf2d_action_list_init(128);
 
@@ -115,9 +125,7 @@ int main(int argc, char * argv[])
                 NULL,
                 &mouseColor,
                 (int)mf);
-            
-            //UI elements last
-            
+            gf2d_graphics_render_texture_to_screen(texture, NULL, &rect);
         gf2d_grahics_next_frame();// render current draw frame and skip to the next frame
         
         if (keys[SDL_SCANCODE_ESCAPE])done = 1; // exit condition

@@ -295,4 +295,6 @@ SDL_Surface *gf2d_graphics_screen_convert(SDL_Surface **surface)
     return convert;
 }
 
+
+
 /*eol@eof*/

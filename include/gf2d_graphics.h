@@ -6,6 +6,8 @@
 #include "gfc_types.h"
 #include "gfc_vector.h"
 
+#include "SDL_ttf.h"
+
 /**
  * @brief initializes SDL and setups up basic window and rendering contexts
  * @param windowName the name that you would want displayed on the game window
@@ -78,5 +80,7 @@ void gf2d_graphics_blit_surface_to_screen(SDL_Surface *surface,const SDL_Rect * 
  * @returns NULL on error, or the new SDL Surface upon success
  */
 SDL_Surface *gf2d_graphics_screen_convert(SDL_Surface **surface);
+
+void gf2d_graphics_render_texture_to_screen(SDL_Texture* texture, const SDL_Rect* srcRect, SDL_Rect* dstRect);
 
 #endif
