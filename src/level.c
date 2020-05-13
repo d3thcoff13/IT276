@@ -105,6 +105,9 @@ void load_level_entities(SJson* list){
 }
 
 void draw_tiles(Level* level){
+	Sprite* sprite;
+	sprite = gf2d_sprite_load_image("../../images/backgrounds/bg_flat.png");
+	gf2d_sprite_draw_image(sprite, vector2d(-10, 0));
 	for (int i = 0; i < level->height; i++){
 		for (int j = 0; j < level->width; j++){
 			if (level->tiles[i][j] == 0)
@@ -118,6 +121,7 @@ void change_level(int targetlevel) {
 	if (level != NULL) {
 		memset(level->tiles, 0, sizeof(int*));
 		memset(level, 0, sizeof(Level));
+		level = NULL;
 	}
 	if(targetlevel == 1)level = load_level("../../levels/demolevel.json"); 
 	else if(targetlevel == 2) level = load_level("../../levels/demo2.json");

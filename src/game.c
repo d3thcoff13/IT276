@@ -9,8 +9,27 @@
 #include "game.h"
 #include "SDL_ttf.h"
 #include "g_text.h"
+#include "ui.h"
+#include "g_menu.h"
 
 
+void SetGameState(GameState newGamestate) {
+    currentGameState = newGamestate;
+    switch (newGamestate) {
+    case MainMenu:
+        initMenu(0);
+        break;
+    case InGame:
+        Load_Game();
+        change_level(currentLevel);
+        init_HUD();
+        break;
+    case Paused:
+        break;
+    case Quit:
+        break;
+    }
+}
 
 void Save_Game(){
 SJson* file, * array, * data;
@@ -52,19 +71,29 @@ void Load_Game() {
 
 }
 
+void UpdateGame() {
+    if (currentGameState == MainMenu) {
+        GetMainMenuInputs();
+        DrawMenu(mainmenu);
+    }
+    if (currentGameState == InGame) {
+        draw_tiles(level);
+        entity_draw_all();
+        
+        Update_HUD();
+    }
+}
+
 int main(int argc, char * argv[])
 {
     /*variable declarations*/
     int done = 0;
     const Uint8 * keys;
-    Sprite *sprite;
     
     int mx,my;
     float mf = 0;
     Sprite *mouse;
     Vector4D mouseColor = {255,100,255,200};
-    TTF_Font* font;
-    SDL_Texture *texture;
     
     
     /*program initializtion*/
@@ -83,18 +112,14 @@ int main(int argc, char * argv[])
     SDL_ShowCursor(SDL_DISABLE);
     entity_manager_init(1024);
     if (TTF_Init() == 1)slog("oof");
-    font = TTF_OpenFont("../../images/calibri.ttf", 28);
-    SDL_Color textColor = { 255, 255, 255 };
-    LoadFromRenderedText(font, "IT WORKS", textColor);
-    texture = GetTextTexture();
-    SDL_Rect rect = { 200,0,320,100 };
     
     gf2d_action_list_init(128);
-
-    Load_Game();
-    change_level(currentLevel);
+    SetGameState(MainMenu);
+    //Load_Game();
+    //change_level(currentLevel);
+    //init_HUD();
     /*demo setup*/
-    sprite = gf2d_sprite_load_image("../../images/backgrounds/bg_flat.png");
+    //sprite = gf2d_sprite_load_image("../../images/backgrounds/bg_flat.png");
     mouse = gf2d_sprite_load_all("../../images/pointer.png",32,32,16);
     /*main game loop*/
     while(!done)
@@ -111,25 +136,25 @@ int main(int argc, char * argv[])
         gf2d_graphics_clear_screen();// clears drawing buffers
         // all drawing should happen betweem clear_screen and next_frame
             //backgrounds drawn first
-            gf2d_sprite_draw_image(sprite,vector2d(-10,0));
+            //if(currentGameState == InGame)gf2d_sprite_draw_image(sprite,vector2d(-10,0));
             
 
-            draw_tiles(level);
-            entity_draw_all();
+       
+            UpdateGame();
             gf2d_sprite_draw(
                 mouse,
-                vector2d(mx,my),
+                vector2d(mx, my),
                 NULL,
                 NULL,
                 NULL,
                 NULL,
                 &mouseColor,
                 (int)mf);
-            gf2d_graphics_render_texture_to_screen(texture, NULL, &rect);
         gf2d_grahics_next_frame();// render current draw frame and skip to the next frame
         
         if (keys[SDL_SCANCODE_ESCAPE])done = 1; // exit condition
         //slog("Rendering at %f FPS",gf2d_graphics_get_frames_per_second());
+        if (currentGameState == Quit)done = 1;
         
 
     }

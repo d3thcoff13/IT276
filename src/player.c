@@ -121,7 +121,7 @@ void player_think(Entity *self){
             }
                 break;
     }
-    if (self->cooldown == 0)getPlayerInputs(self);
+    if (self->cooldown == 0 && currentGameState != Paused)getPlayerInputs(self);
 }
 
 void player_touch(Entity *self, Entity *other){
