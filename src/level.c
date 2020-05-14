@@ -8,11 +8,13 @@
 #include "simple_logger.h"
 #include "game.h"
 #include "obstacles.h"
+#include "g_editor.h"
 
 Level* load_level(const char* filename){
 	level = (Level *)malloc(sizeof(Level));
 	SJson *value,*file;
 	char* tilesheet;
+	const char* bgpath;
 	int numOfTiles;
 	level->color = vector4d(255, 255, 255, 255);
 
@@ -44,8 +46,12 @@ Level* load_level(const char* filename){
 	value = sj_object_get_value(file, "tileimages");
 	sj_get_integer_value(value, &numOfTiles);
 
+	value = sj_object_get_value(file, "background");
+	bgpath = sj_get_string_value(value);
+	level->background = gf2d_sprite_load_image(bgpath);
+
 	level->tilesheet = gf2d_sprite_load_all(tilesheet, level->tilewidth, level->tileheight, numOfTiles);
-	load_level_entities(sj_object_get_value(file, "objects"));
+	if(currentGameState == InGame)load_level_entities(sj_object_get_value(file, "objects"));
 	slog("Level loaded: %s height,width:%i,%i tileheight,tilewidth:%i,%i ", level->tilesheet->filepath, level->height, level->width, level->tileheight, level->tilewidth);
 
 	return level;
@@ -77,7 +83,7 @@ void load_level_entities(SJson* list){
 		}
 		else if (!strcmp(sj_get_string_value(objectContent), "pyro")) {
 			pyro_spawn(entity);
-			entity_free(entity);
+		//	entity_free(entity);
 		}else if (!strcmp(sj_get_string_value(objectContent), "tree")) {
 			init_tree(entity);
 		}
@@ -105,9 +111,7 @@ void load_level_entities(SJson* list){
 }
 
 void draw_tiles(Level* level){
-	Sprite* sprite;
-	sprite = gf2d_sprite_load_image("../../images/backgrounds/bg_flat.png");
-	gf2d_sprite_draw_image(sprite, vector2d(-10, 0));
+	gf2d_sprite_draw_image(level->background, vector2d(-10, 0));
 	for (int i = 0; i < level->height; i++){
 		for (int j = 0; j < level->width; j++){
 			if (level->tiles[i][j] == 0)
@@ -117,10 +121,11 @@ void draw_tiles(Level* level){
 	}
 }
 
-void change_level(int targetlevel) {
+void change_level(float targetlevel) {
 	if (level != NULL) {
 		memset(level->tiles, 0, sizeof(int*));
 		memset(level, 0, sizeof(Level));
+		free(level);
 		level = NULL;
 	}
 	if(targetlevel == 1)level = load_level("../../levels/demolevel.json"); 
@@ -129,4 +134,68 @@ void change_level(int targetlevel) {
 
 Level* get_level() {
 	return level;
+}
+
+void RestartLevel() {
+	entity_free_all();
+	change_level(currentLevel);
+}
+
+void SaveLevel(char * filename) {
+	Entity* currentEnt;
+	SJson* file, * layers, * array, *array2, * data, *objects, *object;
+	file = sj_object_new();
+	layers = sj_object_new();
+	object = sj_object_new();
+	objects = sj_array_new();
+	array = sj_array_new();
+	array2 = sj_array_new();
+	
+	data = sj_new_int(24);
+	sj_object_insert(file, "height", data);
+
+	data = sj_new_int(42);
+	sj_object_insert(file, "width", data);
+
+	data = sj_new_int(32);
+	sj_object_insert(file, "tileheight", data);
+
+	data = sj_new_int(32);
+	sj_object_insert(file, "tilewidth", data);
+	
+	data = sj_new_str("../../images/perlin-grey.png");
+	sj_object_insert(file, "tilesheet", data);
+
+	data = sj_new_int(1);
+	sj_object_insert(file, "tileimages", data);
+
+	data = sj_new_str("../../images/backgrounds/bg_flat.png");
+	sj_object_insert(file, "background", data);
+
+	for (int i = 0; i < level->height; i++) {
+		for (int j = 0; j < level->width; j++) {
+			data = sj_new_int(level->tiles[i][j]);
+			sj_array_append(array, data);
+		}
+	}
+
+	for (int i = 0; i < getMaxEnts(); i++) {
+		currentEnt = Find(i);
+		data = sj_new_str(currentEnt->name);
+		sj_object_insert(object, "name", data);
+
+		data = sj_new_float(currentEnt->position.x);
+		sj_object_insert(object, "x", data);
+
+		data = sj_new_float(currentEnt->position.y);
+		sj_object_insert(object, "y", data);
+
+		sj_array_append(objects, object);
+	}
+	sj_object_insert(layers, "data", array);
+	sj_object_insert(file, "layers", layers);
+	sj_object_insert(file, "data", array);
+	sj_object_insert(file,"objects",objects);
+
+	sj_save(file, filename);
 }

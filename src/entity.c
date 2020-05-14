@@ -238,8 +238,15 @@ void entity_tile_collision(int** tiles) {
                 check_tile_ahead(&entity_manager.entityList[i], tiles);
             }
         }
-    }
+}
 
+Entity* Find(int i) {
+    return &entity_manager.entityList[i];
+}
+
+int getMaxEnts() {
+    return entity_manager.maxEnts;
+}
 
 
 

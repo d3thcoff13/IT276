@@ -12,7 +12,10 @@ typedef struct menu_s {
 }menu;
 
 menu *mainmenu;
+menu* pausemenu;
 void initMenu(int type);
+
+void GetPauseMenuInputs();
 
 void GetMainMenuInputs();
 

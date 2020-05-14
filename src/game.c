@@ -11,6 +11,7 @@
 #include "g_text.h"
 #include "ui.h"
 #include "g_menu.h"
+#include "g_editor.h"
 
 
 void SetGameState(GameState newGamestate) {
@@ -23,8 +24,10 @@ void SetGameState(GameState newGamestate) {
         Load_Game();
         change_level(currentLevel);
         init_HUD();
+        initMenu(1);
         break;
-    case Paused:
+    case Editor:
+        initEditor(0);
         break;
     case Quit:
         break;
@@ -73,14 +76,29 @@ void Load_Game() {
 
 void UpdateGame() {
     if (currentGameState == MainMenu) {
+        entity_update_all();
+        gf2d_graphics_clear_screen();
         GetMainMenuInputs();
         DrawMenu(mainmenu);
+       
     }
     if (currentGameState == InGame) {
-        draw_tiles(level);
-        entity_draw_all();
-        
-        Update_HUD();
+        if (pausemenu->active == 0)entity_update_all();
+        if (pausemenu->active == 1)GetPauseMenuInputs();
+        gf2d_graphics_clear_screen();// clears drawing buffers
+        if (pausemenu->active == 0) {
+            draw_tiles(level);
+            entity_draw_all();
+            Update_HUD();
+        }
+        if(pausemenu->active == 1)DrawMenu(pausemenu);
+    }
+    if (currentGameState == Editor) {
+        if(currentmenu == 3)entity_update_all();
+        gf2d_graphics_clear_screen();
+        GetEdMenuInputs(currentmenu);
+        DrawEditor(currentmenu);
+        if (currentmenu == 3) entity_draw_all();
     }
 }
 
@@ -128,12 +146,13 @@ int main(int argc, char * argv[])
         keys = SDL_GetKeyboardState(NULL); // get the keyboard state for this frame
         /*update things here*/
         SDL_GetMouseState(&mx,&my);
+
         mf+=0.1;
         if (mf >= 16.0)mf = 0;
         
-        entity_update_all();
+        //if(pausemenu->active == 0)entity_update_all();
         
-        gf2d_graphics_clear_screen();// clears drawing buffers
+        //gf2d_graphics_clear_screen();// clears drawing buffers
         // all drawing should happen betweem clear_screen and next_frame
             //backgrounds drawn first
             //if(currentGameState == InGame)gf2d_sprite_draw_image(sprite,vector2d(-10,0));
@@ -151,8 +170,8 @@ int main(int argc, char * argv[])
                 &mouseColor,
                 (int)mf);
         gf2d_grahics_next_frame();// render current draw frame and skip to the next frame
-        
         if (keys[SDL_SCANCODE_ESCAPE])done = 1; // exit condition
+        
         //slog("Rendering at %f FPS",gf2d_graphics_get_frames_per_second());
         if (currentGameState == Quit)done = 1;
         

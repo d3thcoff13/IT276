@@ -12,6 +12,7 @@
 #include "obstacles.h"
 #include "level.h"
 #include "game.h"
+#include "g_menu.h"
 
 #define ES_IDLE 1
 #define ES_RUN 2
@@ -121,7 +122,8 @@ void player_think(Entity *self){
             }
                 break;
     }
-    if (self->cooldown == 0 && currentGameState != Paused)getPlayerInputs(self);
+    getPlayerInputs(self);
+    if (self->position.y > 709)RestartLevel();
 }
 
 void player_touch(Entity *self, Entity *other){
@@ -148,7 +150,8 @@ void player_touch(Entity *self, Entity *other){
                 entity_free(other);
             }
         }else
-        if (other->obstacleType == OT_Spikes && self->stoneskin == false)entity_free(self);
+        if (other->obstacleType == OT_Spikes && self->stoneskin == false)RestartLevel();
+        if (self->health <= 0)RestartLevel();
     }
     if (other->type == ET_Obstacle)self->position.x += (self->position.x > other->position.x ? 1 : -1)* other->hitbox.w;
 }
@@ -269,6 +272,11 @@ void getPlayerInputs(Entity *self) {
         {
         case SDL_KEYDOWN:
             switch (event.key.keysym.sym) {
+            case SDLK_BACKSPACE:
+                slog("z");
+                slog("%i", &get_level()->tiles[6][9]);
+                get_level()->tiles[6][9] = 1;
+                break;
             case SDLK_w: {
                 if (self->grounded == true) {
                     self->state = ES_JUMP;
@@ -294,7 +302,6 @@ void getPlayerInputs(Entity *self) {
                             self->velocity.x = 2;
                         }
                     }
-                    slog("huh.");
                 }
             }
             break;
@@ -335,6 +342,9 @@ void getPlayerInputs(Entity *self) {
                 currentLevel++;
                 if (currentLevel > 2)currentLevel = 2;
                 change_level(currentLevel);
+                break;
+            case SDLK_p:
+                pausemenu->active = 1;
                 break;
             case SDLK_6:
                 entToSpawn = entity_new();

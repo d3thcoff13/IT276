@@ -19,7 +19,6 @@ typedef struct{
     HUD_element* textureList;
     HUD_element health;
     HUD_element weapon;
-    
 }HUD;
 
 static HUD hud = { 0 };
@@ -40,7 +39,7 @@ void init_HUD() {
     SDL_Color color = { 255,255,255 };
     hud.textureList[0].color = color;
 
-    char health[24], max[24], * output;
+    char health[24], max[24], *output;
     output = (char*)malloc( sizeof (char) * 24);
     hud.textureList[0].stat = player_entity->health;
     hud.textureList[0].maxstat = player_entity->maxHealth;
@@ -52,7 +51,6 @@ void init_HUD() {
     strcat(output, max);
 
     hud.textureList[0].texture = LoadFromRenderedText(hud.textureList[0].font, output, hud.textureList[0].color);
-
     //other stat
 
     hud.textureList[1].font = TTF_OpenFont("../../images/calibri.ttf", 48);

@@ -9,6 +9,8 @@ void check_tile_ahead(Entity* self, int** tiles) {
 	int right_bound = ((self->position.x + self->hitbox.w + self->hitbox.offsetx) / 32);
 	int bottom_tile = ((self->position.y + self->hitbox.offsety + self->hitbox.h) / 32);
 	int upper_tile = ((self->position.y + self->hitbox.offsety) / 32);
+	if (upper_tile < 0) upper_tile = 0;
+	if (bottom_tile < 0)bottom_tile = 0;
 	int t = 0;
 	for (int i = left_bound; i <= right_bound; i++) {
 		if (tiles[bottom_tile][i] != 0 && vector2d_magnitude_between(vector2d(0, self->position.y + self->hitbox.offsety + self->hitbox.h - 16), vector2d(0, bottom_tile * 32)) <= 16) {
@@ -33,6 +35,7 @@ void check_tile_ahead(Entity* self, int** tiles) {
 
 
 	int upper_bound = ((self->position.y + self->hitbox.offsety) / 32);
+	if (upper_bound < 0)upper_bound = 0;
 	int lower_bound = ((self->position.y + self->hitbox.offsety + self->hitbox.h) / 32);
 	int left_tile = ((self->position.x + self->hitbox.offsetx) / 32) - 1;
 	int right_tile = ((self->position.x + self->hitbox.w + self->hitbox.offsetx) / 32) + 1;
@@ -49,6 +52,7 @@ void check_tile_ahead(Entity* self, int** tiles) {
 			self->attack_cooldown = 2;
 			self->wall = 1;
 			l++;
+			if (tiles[i][left_tile] == 1 && self->type == ET_Projectile)self->state = 2;
 		}
 	}
 	if (l == 0) {

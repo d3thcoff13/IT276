@@ -50,14 +50,8 @@ SDL_Texture *LoadFromRenderedText(TTF_Font* font, const char* textureText, SDL_C
         {
             printf("Unable to create texture from rendered text! SDL Error: %s\n", SDL_GetError());
         }
-        else
-            /*{
-                //Get image dimensions
-                mWidth = textSurface->w;
-                mHeight = textSurface->h;
-            }*/
-            textSurface->w = 320;
-        textSurface->h = 100;
+          //  textSurface->w = 320;
+        //textSurface->h = 100;
         //Get rid of old surface
         SDL_FreeSurface(textSurface);
     }

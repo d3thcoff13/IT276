@@ -9,6 +9,7 @@ Entity* fireball_init(Entity* self, Entity *owner) {
 	self->position = vector2d( owner->position.x - 30, owner->position.y + 24);
 	self->velocity.x = self->owner->flip.x == 1? -2 : 2;
 	self->flip.x = self->owner->flip.x == 1? 0: 1;
+	//if (self->owner->flip.x == 0)self->position.x += self->owner->hitbox.w;
 	self->type = ET_Projectile;
 	self->canDamage = true;
 	self->damage = 50;
@@ -25,6 +26,7 @@ Entity* fireball_init(Entity* self, Entity *owner) {
 void fireball_think(Entity* self) {
 	gf2d_actor_next_frame(&self->actor);
 	update_hitbox_position(self);
+	if (self->position.x <= 2 || self->position.x >= 1300)self->state = ES_DEAD;
 	if (self->state == ES_DEAD) {
 		entity_free(self);
 	}

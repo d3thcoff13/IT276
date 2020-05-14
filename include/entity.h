@@ -73,7 +73,7 @@ typedef struct Entity_S
 
     void (*think)(struct Entity_S *self);   /**<called when an entity draws*/
     void (*touch)(struct Entity_S *self, struct Entity_S *other);   /**<called when an entity touches another entity*/
-    
+    void (*die)(struct Entity_S* self);
     Vector2D flip;
     Vector2D scale;
     Actor actor;
@@ -118,6 +118,8 @@ typedef struct Entity_S
     bool stoneskin;
     float stoneskinTimer;
 
+    char* name;
+
 }Entity;
 
 void entity_free_all();
@@ -160,4 +162,8 @@ void set_searchbox(Entity* self, int x, int y, int w, int h, int offsetx, int of
 void update_searchbox_position(Entity* self);
 
 void entity_tile_collision(int** tiles);
+
+Entity* Find(int i);
+
+int getMaxEnts();
 #endif

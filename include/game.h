@@ -3,7 +3,7 @@
 #define __GameState_e__
 
 typedef enum {
-	Paused,
+	Editor,
 	MainMenu,
 	InGame,
 	Quit
@@ -12,7 +12,7 @@ typedef enum {
 GameState currentGameState;
 void SetGameState(GameState newGameState);
 Level* level;
-int* currentLevel;
+int currentLevel;
 Entity* player_entity;
 void Save_Game();
 void Load_Game();
