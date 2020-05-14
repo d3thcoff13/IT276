@@ -181,20 +181,23 @@ void SaveLevel(char * filename) {
 
 	for (int i = 0; i < getMaxEnts(); i++) {
 		currentEnt = Find(i);
-		data = sj_new_str(currentEnt->name);
-		sj_object_insert(object, "name", data);
+		if (currentEnt->_inuse) {
+			data = sj_new_str(currentEnt->name);
+			sj_object_insert(object, "name", data);
 
-		data = sj_new_float(currentEnt->position.x);
-		sj_object_insert(object, "x", data);
+			data = sj_new_float(currentEnt->position.x);
+			sj_object_insert(object, "x", data);
 
-		data = sj_new_float(currentEnt->position.y);
-		sj_object_insert(object, "y", data);
+			data = sj_new_float(currentEnt->position.y);
+			sj_object_insert(object, "y", data);
 
-		sj_array_append(objects, object);
+			sj_array_append(objects, object);
+		}
 	}
+
 	sj_object_insert(layers, "data", array);
 	sj_object_insert(file, "layers", layers);
-	sj_object_insert(file, "data", array);
+	//sj_object_insert(file, "data", array);
 	sj_object_insert(file,"objects",objects);
 
 	sj_save(file, filename);
